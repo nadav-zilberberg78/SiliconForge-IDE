@@ -1,0 +1,13 @@
+// Seeed XIAO ESP32-S3: blink an LED once per second
+const int LED = 21;
+
+void setup() {
+  pinMode(LED, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED, HIGH);
+  delay(500);
+  digitalWrite(LED, LOW);
+  delay(500);
+}

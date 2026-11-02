@@ -1,0 +1,19 @@
+{
+  "id": "sketch-helpers",
+  "name": "Sketch helpers",
+  "version": "1.0.0",
+  "description": "Adds a file header command, a line counter and Arduino snippets for timers and button debouncing.",
+  "main": "main.js",
+  "contributes": {
+    "commands": [
+      { "id": "add-header", "title": "Add file header" },
+      { "id": "count-lines", "title": "Count code lines" }
+    ],
+    "snippets": {
+      "cpp": [
+        ["every interval", "static unsigned long last = 0;\nif (millis() - last >= ${1:1000}) {\n  last = millis();\n  $0\n}", "Run code on a timer without delay()."],
+        ["debounced button", "static bool stable = HIGH, previous = HIGH;\nstatic unsigned long changedAt = 0;\nbool reading = digitalRead(${1:pin});\nif (reading != previous) changedAt = millis();\nif (millis() - changedAt > 20 && reading != stable) {\n  stable = reading;\n  if (stable == LOW) {\n    $0\n  }\n}\nprevious = reading;", "React once per press, ignoring contact bounce."]
+      ]
+    }
+  }
+}

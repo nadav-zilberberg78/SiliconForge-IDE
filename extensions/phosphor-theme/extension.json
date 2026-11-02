@@ -1,0 +1,22 @@
+{
+  "id": "phosphor-theme",
+  "name": "Phosphor theme",
+  "version": "1.0.0",
+  "description": "An oscilloscope-screen theme: green trace on a dark tube.",
+  "contributes": {
+    "themes": [
+      {
+        "id": "phosphor",
+        "label": "Phosphor",
+        "base": "dark",
+        "colors": {
+          "substrate": "#0a1410", "mask": "#101d17", "mask-raised": "#182a21", "edge": "#2c4a3a",
+          "silk": "#c9f5d9", "silk-dim": "#8fc9a6", "silk-faint": "#6ba384",
+          "gold": "#5fe39a", "gold-hi": "#8cf0b7", "gold-ink": "#08140e",
+          "string": "#d7f28a", "number": "#ffd479", "type": "#7fe0d4", "preproc": "#a9e3ff",
+          "err": "#ff9c8a", "warn": "#ffd479", "ok": "#5fe39a"
+        }
+      }
+    ]
+  }
+}

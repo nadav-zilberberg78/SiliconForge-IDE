@@ -1,0 +1,16 @@
+# Seeed XIAO ESP32-S3: sweep a hobby servo on pin 16 (give it its own 5 V supply and share GND).
+from machine import PWM, Pin
+import time
+
+servo = PWM(Pin(16))
+servo.freq(50)
+
+
+def write_us(us):
+    servo.duty_u16(us * 65535 // 20000)
+
+
+while True:
+    for us in list(range(1000, 2001, 10)) + list(range(2000, 999, -10)):
+        write_us(us)
+        time.sleep_ms(15)

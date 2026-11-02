@@ -1,0 +1,275 @@
+[
+  {
+    "id": "uno", "name": "Arduino Uno", "family": "AVR", "cpu": "ATmega328P",
+    "clockHz": 16000000, "flashKB": 32, "ramKB": 2, "pins": ["D0–D13", "A0–A5", "LED: D13 (PB5)"],
+    "fqbn": "arduino:avr:uno",
+    "langs": { "cpp": "arduino", "c": "avr" }, "mcu": "atmega328p", "avrdude": "-c arduino -b 115200", "ledPort": "B", "ledBit": 5
+  },
+  {
+    "id": "nano", "name": "Arduino Nano", "family": "AVR", "cpu": "ATmega328P",
+    "clockHz": 16000000, "flashKB": 32, "ramKB": 2, "pins": ["D0–D13", "A0–A7", "LED: D13 (PB5)"],
+    "fqbn": "arduino:avr:nano",
+    "langs": { "cpp": "arduino", "c": "avr" }, "mcu": "atmega328p", "avrdude": "-c arduino -b 115200", "ledPort": "B", "ledBit": 5
+  },
+  {
+    "id": "nano-old", "name": "Arduino Nano (old bootloader)", "family": "AVR", "cpu": "ATmega328P",
+    "clockHz": 16000000, "flashKB": 32, "ramKB": 2, "pins": ["D0–D13", "A0–A7", "LED: D13 (PB5)"],
+    "fqbn": "arduino:avr:nano:cpu=atmega328old",
+    "langs": { "cpp": "arduino", "c": "avr" }, "mcu": "atmega328p", "avrdude": "-c arduino -b 57600", "ledPort": "B", "ledBit": 5
+  },
+  {
+    "id": "pro-mini-8", "name": "Arduino Pro Mini 3.3 V / 8 MHz", "family": "AVR", "cpu": "ATmega328P",
+    "clockHz": 8000000, "flashKB": 32, "ramKB": 2, "pins": ["D0–D13", "A0–A7", "LED: D13 (PB5)"],
+    "fqbn": "arduino:avr:pro:cpu=8MHzatmega328",
+    "langs": { "cpp": "arduino", "c": "avr" }, "mcu": "atmega328p", "avrdude": "-c arduino -b 57600", "ledPort": "B", "ledBit": 5
+  },
+  {
+    "id": "pro-mini-16", "name": "Arduino Pro Mini 5 V / 16 MHz", "family": "AVR", "cpu": "ATmega328P",
+    "clockHz": 16000000, "flashKB": 32, "ramKB": 2, "pins": ["D0–D13", "A0–A7", "LED: D13 (PB5)"],
+    "fqbn": "arduino:avr:pro:cpu=16MHzatmega328",
+    "langs": { "cpp": "arduino", "c": "avr" }, "mcu": "atmega328p", "avrdude": "-c arduino -b 57600", "ledPort": "B", "ledBit": 5
+  },
+  {
+    "id": "leonardo", "name": "Arduino Leonardo", "family": "AVR", "cpu": "ATmega32U4",
+    "clockHz": 16000000, "flashKB": 32, "ramKB": 2.5, "pins": ["D0–D13", "A0–A5", "LED: D13 (PC7)"],
+    "fqbn": "arduino:avr:leonardo",
+    "langs": { "cpp": "arduino", "c": "avr" }, "mcu": "atmega32u4", "avrdude": "-c avr109 -b 57600 -D", "touch1200": true, "ledPort": "C", "ledBit": 7, "uart": 1
+  },
+  {
+    "id": "micro", "name": "Arduino Micro", "family": "AVR", "cpu": "ATmega32U4",
+    "clockHz": 16000000, "flashKB": 32, "ramKB": 2.5, "pins": ["D0–D13", "A0–A5", "LED: D13 (PC7)"],
+    "fqbn": "arduino:avr:micro",
+    "langs": { "cpp": "arduino", "c": "avr" }, "mcu": "atmega32u4", "avrdude": "-c avr109 -b 57600 -D", "touch1200": true, "ledPort": "C", "ledBit": 7, "uart": 1
+  },
+  {
+    "id": "nano-every", "name": "Arduino Nano Every", "family": "megaAVR", "cpu": "ATmega4809",
+    "clockHz": 16000000, "flashKB": 48, "ramKB": 6, "pins": ["D0–D13", "A0–A7", "LED: D13 (PE2)"],
+    "fqbn": "arduino:megaavr:nona4809",
+    "langs": { "cpp": "arduino", "c": "megaavr" }, "mcu": "atmega4809", "touch1200": true, "ledPort": "E", "ledBit": 2,
+    "avrdude": "-c jtag2updi -b 115200 -e -D -U fuse2:w:0x01:m -U fuse5:w:0xC9:m -U fuse8:w:0x00:m"
+  },
+  {
+    "id": "mega2560", "name": "Arduino Mega 2560", "family": "AVR", "cpu": "ATmega2560",
+    "clockHz": 16000000, "flashKB": 256, "ramKB": 8, "pins": ["D0–D53", "A0–A15", "LED: D13 (PB7)"],
+    "fqbn": "arduino:avr:mega:cpu=atmega2560",
+    "langs": { "cpp": "arduino", "c": "avr" }, "mcu": "atmega2560", "avrdude": "-c wiring -b 115200 -D", "ledPort": "B", "ledBit": 7
+  },
+  {
+    "id": "bluepill-f103", "name": "Blue Pill (STM32F103C8)", "family": "ARM Cortex-M3", "cpu": "STM32F103C8T6",
+    "clockHz": 72000000, "flashKB": 64, "ramKB": 20, "pins": ["PA0–PA15", "PB0–PB15", "PC13–PC15", "LED: PC13"],
+    "fqbn": "STMicroelectronics:stm32:GenF1:pnum=BLUEPILL_F103C8",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m" },
+    "flashOrigin": "0x08000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m3 -mthumb",
+    "rustTarget": "thumbv7m-none-eabi", "probeRsChip": "STM32F103C8", "openocdTarget": "stm32f1x", "probe": "stlink"
+  },
+  {
+    "id": "blackpill-f411", "name": "WeAct Black Pill (STM32F411CE)", "family": "ARM Cortex-M4F", "cpu": "STM32F411CEU6",
+    "clockHz": 100000000, "flashKB": 512, "ramKB": 128, "pins": ["PA0–PA15", "PB0–PB15", "PC13–PC15", "LED: PC13"],
+    "fqbn": "STMicroelectronics:stm32:GenF4:pnum=BLACKPILL_F411CE",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x08000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16",
+    "rustTarget": "thumbv7em-none-eabihf", "probeRsChip": "STM32F411CEUx", "openocdTarget": "stm32f4x", "probe": "stlink"
+  },
+  {
+    "id": "nucleo-f401re", "name": "ST Nucleo-F401RE", "family": "ARM Cortex-M4F", "cpu": "STM32F401RET6",
+    "clockHz": 84000000, "flashKB": 512, "ramKB": 96, "pins": ["PA0–PA15", "PB0–PB15", "PC0–PC15", "LED: PA5"],
+    "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_F401RE",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x08000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16",
+    "rustTarget": "thumbv7em-none-eabihf", "probeRsChip": "STM32F401RETx", "openocdTarget": "stm32f4x", "probe": "stlink"
+  },
+  {
+    "id": "nucleo-f103rb", "name": "ST Nucleo-F103RB", "family": "ARM Cortex-M3", "cpu": "STM32F103RBT6",
+    "clockHz": 72000000, "flashKB": 128, "ramKB": 20, "pins": ["PA0–PA15", "PB0–PB15", "PC0–PC15", "LED: PA5"],
+    "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_F103RB",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m" },
+    "flashOrigin": "0x08000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m3 -mthumb",
+    "rustTarget": "thumbv7m-none-eabi", "probeRsChip": "STM32F103RB", "openocdTarget": "stm32f1x", "probe": "stlink"
+  },
+  {
+    "id": "nucleo-f446re", "name": "ST Nucleo-F446RE", "family": "ARM Cortex-M4F", "cpu": "STM32F446RET6",
+    "clockHz": 180000000, "flashKB": 512, "ramKB": 128, "pins": ["PA0–PA15", "PB0–PB15", "PC0–PC15", "LED: PA5"],
+    "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_F446RE",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x08000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16",
+    "rustTarget": "thumbv7em-none-eabihf", "probeRsChip": "STM32F446RETx", "openocdTarget": "stm32f4x", "probe": "stlink"
+  },
+  {
+    "id": "nucleo-l476rg", "name": "ST Nucleo-L476RG", "family": "ARM Cortex-M4F", "cpu": "STM32L476RGT6",
+    "clockHz": 80000000, "flashKB": 1024, "ramKB": 96, "pins": ["PA0–PA15", "PB0–PB15", "PC0–PC15", "LED: PA5"],
+    "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_L476RG",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x08000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16",
+    "rustTarget": "thumbv7em-none-eabihf", "probeRsChip": "STM32L476RGTx", "openocdTarget": "stm32l4x", "probe": "stlink"
+  },
+  {
+    "id": "nucleo-g431rb", "name": "ST Nucleo-G431RB", "family": "ARM Cortex-M4F", "cpu": "STM32G431RBT6",
+    "clockHz": 170000000, "flashKB": 128, "ramKB": 32, "pins": ["PA0–PA15", "PB0–PB15", "PC0–PC15", "LED: PA5"],
+    "fqbn": "STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_G431RB",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m" },
+    "flashOrigin": "0x08000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16",
+    "rustTarget": "thumbv7em-none-eabihf", "probeRsChip": "STM32G431RBTx", "openocdTarget": "stm32g4x", "probe": "stlink"
+  },
+  {
+    "id": "disco-f407", "name": "ST STM32F4-Discovery", "family": "ARM Cortex-M4F", "cpu": "STM32F407VGT6",
+    "clockHz": 168000000, "flashKB": 1024, "ramKB": 128, "pins": ["PA–PE (0–15)", "LEDs: PD12–PD15"],
+    "fqbn": "STMicroelectronics:stm32:Disco:pnum=DISCO_F407VG",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x08000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16",
+    "rustTarget": "thumbv7em-none-eabihf", "probeRsChip": "STM32F407VGTx", "openocdTarget": "stm32f4x", "probe": "stlink"
+  },
+  {
+    "id": "nucleo-h743zi", "name": "ST Nucleo-H743ZI", "family": "ARM Cortex-M7", "cpu": "STM32H743ZIT6",
+    "clockHz": 480000000, "flashKB": 2048, "ramKB": 128, "pins": ["PA–PG (0–15)", "LEDs: PB0, PB7, PB14"],
+    "fqbn": "STMicroelectronics:stm32:Nucleo_144:pnum=NUCLEO_H743ZI",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x08000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16",
+    "rustTarget": "thumbv7em-none-eabihf", "probeRsChip": "STM32H743ZITx", "openocdTarget": "stm32h7x", "probe": "stlink"
+  },
+  {
+    "id": "nrf52840dk", "name": "Nordic nRF52840 DK", "family": "ARM Cortex-M4F", "cpu": "nRF52840",
+    "clockHz": 64000000, "flashKB": 1024, "ramKB": 256, "pins": ["P0.00–P0.31", "P1.00–P1.15", "LED1: P0.13"],
+    "langs": { "c": "cmake-arm", "rust": "cortex-m" },
+    "flashOrigin": "0x00000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16",
+    "rustTarget": "thumbv7em-none-eabihf", "probeRsChip": "nRF52840_xxAA", "openocdTarget": "nrf52", "probe": "jlink"
+  },
+  {
+    "id": "microbit-v2", "name": "BBC micro:bit v2", "family": "ARM Cortex-M4F", "cpu": "nRF52833",
+    "clockHz": 64000000, "flashKB": 512, "ramKB": 128, "pins": ["P0–P20 (edge connector)", "5×5 LED matrix"],
+    "langs": { "c": "cmake-arm", "rust": "cortex-m" },
+    "flashOrigin": "0x00000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16",
+    "rustTarget": "thumbv7em-none-eabihf", "probeRsChip": "nRF52833_xxAA", "openocdTarget": "nrf52", "probe": "cmsis-dap"
+  },
+  {
+    "id": "arduino-zero", "name": "Arduino Zero (EDBG port)", "family": "ARM Cortex-M0+", "cpu": "ATSAMD21G18A",
+    "clockHz": 48000000, "flashKB": 256, "ramKB": 32, "pins": ["D0–D13", "A0–A5", "LED: D13 (PA17)"],
+    "fqbn": "arduino:samd:arduino_zero_edbg",
+    "langs": { "cpp": "arduino", "c": "cmake-arm", "rust": "cortex-m" },
+    "flashOrigin": "0x00000000", "ramOrigin": "0x20000000", "cpuFlags": "-mcpu=cortex-m0plus -mthumb",
+    "rustTarget": "thumbv6m-none-eabi", "probeRsChip": "ATSAMD21G18A", "openocdTarget": "at91samdXX", "probe": "cmsis-dap"
+  },
+  {
+    "id": "pico", "name": "Raspberry Pi Pico (RP2040)", "family": "ARM Cortex-M0+", "cpu": "RP2040",
+    "clockHz": 133000000, "flashKB": 2048, "ramKB": 264, "pins": ["GP0–GP28", "LED: GP25"],
+    "fqbn": "rp2040:rp2040:rpipico",
+    "langs": { "cpp": "arduino", "c": "pico-sdk", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x10000000", "ramOrigin": "0x20000000",
+    "rustTarget": "thumbv6m-none-eabi", "probeRsChip": "RP2040", "boot2": true, "picoBoard": "pico", "probe": "cmsis-dap"
+  },
+  {
+    "id": "pico-w", "name": "Raspberry Pi Pico W (RP2040)", "family": "ARM Cortex-M0+", "cpu": "RP2040 + CYW43439",
+    "clockHz": 133000000, "flashKB": 2048, "ramKB": 264, "pins": ["GP0–GP22, GP26–GP28", "LED: CYW43 WL_GPIO0"],
+    "fqbn": "rp2040:rp2040:rpipicow",
+    "langs": { "cpp": "arduino", "c": "pico-sdk", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x10000000", "ramOrigin": "0x20000000",
+    "rustTarget": "thumbv6m-none-eabi", "probeRsChip": "RP2040", "boot2": true, "picoBoard": "pico_w", "probe": "cmsis-dap"
+  },
+  {
+    "id": "nano-rp2040", "name": "Arduino Nano RP2040 Connect", "family": "ARM Cortex-M0+", "cpu": "RP2040",
+    "clockHz": 133000000, "flashKB": 16384, "ramKB": 264, "pins": ["D0–D13", "A0–A7", "LED: D13 (GP6)"],
+    "fqbn": "arduino:mbed_nano:nanorp2040connect",
+    "langs": { "cpp": "arduino", "c": "pico-sdk", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x10000000", "ramOrigin": "0x20000000",
+    "rustTarget": "thumbv6m-none-eabi", "probeRsChip": "RP2040", "boot2": true, "picoBoard": "arduino_nano_rp2040_connect", "probe": "cmsis-dap"
+  },
+  {
+    "id": "pico2", "name": "Raspberry Pi Pico 2 (RP2350)", "family": "ARM Cortex-M33", "cpu": "RP2350A",
+    "clockHz": 150000000, "flashKB": 4096, "ramKB": 520, "pins": ["GP0–GP28", "LED: GP25"],
+    "fqbn": "rp2040:rp2040:rpipico2",
+    "langs": { "cpp": "arduino", "c": "pico-sdk", "python": "micropython" }, "picoBoard": "pico2"
+  },
+  {
+    "id": "pico2-w", "name": "Raspberry Pi Pico 2 W (RP2350)", "family": "ARM Cortex-M33", "cpu": "RP2350A + CYW43439",
+    "clockHz": 150000000, "flashKB": 4096, "ramKB": 520, "pins": ["GP0–GP22, GP26–GP28", "LED: CYW43 WL_GPIO0"],
+    "fqbn": "rp2040:rp2040:rpipico2w",
+    "langs": { "cpp": "arduino", "c": "pico-sdk", "python": "micropython" }, "picoBoard": "pico2_w"
+  },
+  {
+    "id": "feather-rp2040", "name": "Adafruit Feather RP2040", "family": "ARM Cortex-M0+", "cpu": "RP2040",
+    "clockHz": 133000000, "flashKB": 8192, "ramKB": 264, "pins": ["Feather header (GP0–GP29)", "LED: GP13"],
+    "fqbn": "rp2040:rp2040:adafruit_feather",
+    "langs": { "cpp": "arduino", "c": "pico-sdk", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x10000000", "ramOrigin": "0x20000000",
+    "rustTarget": "thumbv6m-none-eabi", "probeRsChip": "RP2040", "boot2": true, "picoBoard": "adafruit_feather_rp2040", "probe": "cmsis-dap"
+  },
+  {
+    "id": "xiao-rp2040", "name": "Seeed XIAO RP2040", "family": "ARM Cortex-M0+", "cpu": "RP2040",
+    "clockHz": 133000000, "flashKB": 2048, "ramKB": 264, "pins": ["D0–D10", "LEDs: GP16, GP17, GP25"],
+    "fqbn": "rp2040:rp2040:seeed_xiao_rp2040",
+    "langs": { "cpp": "arduino", "c": "pico-sdk", "rust": "cortex-m", "python": "micropython" },
+    "flashOrigin": "0x10000000", "ramOrigin": "0x20000000",
+    "rustTarget": "thumbv6m-none-eabi", "probeRsChip": "RP2040", "boot2": true, "picoBoard": "seeed_xiao_rp2040", "probe": "cmsis-dap"
+  },
+  {
+    "id": "esp32-devkitc", "name": "Espressif ESP32-DevKitC", "family": "Xtensa LX6", "cpu": "ESP32-D0WD",
+    "clockHz": 240000000, "flashKB": 4096, "ramKB": 520, "pins": ["GPIO0–GPIO39", "LED: GPIO2 (most clones)"],
+    "fqbn": "esp32:esp32:esp32",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32"
+  },
+  {
+    "id": "esp32-doit-v1", "name": "DOIT ESP32 DevKit V1", "family": "Xtensa LX6", "cpu": "ESP32-D0WDQ6",
+    "clockHz": 240000000, "flashKB": 4096, "ramKB": 520, "pins": ["GPIO0–GPIO39", "LED: GPIO2"],
+    "fqbn": "esp32:esp32:esp32doit-devkit-v1",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32"
+  },
+  {
+    "id": "esp32-s2", "name": "Espressif ESP32-S2-Saola-1", "family": "Xtensa LX7", "cpu": "ESP32-S2",
+    "clockHz": 240000000, "flashKB": 4096, "ramKB": 320, "pins": ["GPIO0–GPIO46", "RGB LED: GPIO18"],
+    "fqbn": "esp32:esp32:esp32s2",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32s2"
+  },
+  {
+    "id": "lolin-s2-mini", "name": "Wemos LOLIN S2 Mini", "family": "Xtensa LX7", "cpu": "ESP32-S2FN4R2",
+    "clockHz": 240000000, "flashKB": 4096, "ramKB": 320, "pins": ["GPIO0–GPIO40", "LED: GPIO15"],
+    "fqbn": "esp32:esp32:lolin_s2_mini",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32s2"
+  },
+  {
+    "id": "esp32-s3", "name": "Espressif ESP32-S3-DevKitC-1", "family": "Xtensa LX7", "cpu": "ESP32-S3",
+    "clockHz": 240000000, "flashKB": 8192, "ramKB": 512, "pins": ["GPIO0–GPIO48", "RGB LED: GPIO48"],
+    "fqbn": "esp32:esp32:esp32s3",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32s3"
+  },
+  {
+    "id": "xiao-esp32s3", "name": "Seeed XIAO ESP32-S3", "family": "Xtensa LX7", "cpu": "ESP32-S3R8",
+    "clockHz": 240000000, "flashKB": 8192, "ramKB": 512, "pins": ["D0–D10", "LED: GPIO21"],
+    "fqbn": "esp32:esp32:XIAO_ESP32S3",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32s3"
+  },
+  {
+    "id": "nano-esp32", "name": "Arduino Nano ESP32", "family": "Xtensa LX7", "cpu": "ESP32-S3",
+    "clockHz": 240000000, "flashKB": 16384, "ramKB": 512, "pins": ["D0–D13", "A0–A7", "LED: D13 (GPIO48)"],
+    "fqbn": "arduino:esp32:nano_nora",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32s3"
+  },
+  {
+    "id": "esp32-c3", "name": "Espressif ESP32-C3-DevKitM-1", "family": "RISC-V", "cpu": "ESP32-C3 (RV32IMC)",
+    "clockHz": 160000000, "flashKB": 4096, "ramKB": 400, "pins": ["GPIO0–GPIO21", "RGB LED: GPIO8"],
+    "fqbn": "esp32:esp32:esp32c3",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32c3"
+  },
+  {
+    "id": "xiao-esp32c3", "name": "Seeed XIAO ESP32-C3", "family": "RISC-V", "cpu": "ESP32-C3 (RV32IMC)",
+    "clockHz": 160000000, "flashKB": 4096, "ramKB": 400, "pins": ["D0–D10", "No user LED"],
+    "fqbn": "esp32:esp32:XIAO_ESP32C3",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32c3"
+  },
+  {
+    "id": "esp32-c6", "name": "Espressif ESP32-C6-DevKitC-1", "family": "RISC-V", "cpu": "ESP32-C6 (RV32IMAC)",
+    "clockHz": 160000000, "flashKB": 8192, "ramKB": 512, "pins": ["GPIO0–GPIO23", "RGB LED: GPIO8"],
+    "fqbn": "esp32:esp32:esp32c6",
+    "langs": { "cpp": "arduino", "c": "esp-idf", "python": "micropython" }, "espChip": "esp32c6"
+  },
+  {
+    "id": "esp32-h2", "name": "Espressif ESP32-H2-DevKitM-1", "family": "RISC-V", "cpu": "ESP32-H2 (RV32IMAC)",
+    "clockHz": 96000000, "flashKB": 4096, "ramKB": 320, "pins": ["GPIO0–GPIO27", "RGB LED: GPIO8"],
+    "fqbn": "esp32:esp32:esp32h2",
+    "langs": { "cpp": "arduino", "c": "esp-idf" }, "espChip": "esp32h2"
+  },
+  {
+    "id": "nodemcu-esp8266", "name": "NodeMCU (ESP8266)", "family": "Xtensa L106", "cpu": "ESP8266EX",
+    "clockHz": 80000000, "flashKB": 4096, "ramKB": 80, "pins": ["D0–D8", "A0", "LED: GPIO2"],
+    "fqbn": "esp8266:esp8266:nodemcuv2",
+    "langs": { "cpp": "arduino", "python": "micropython" }
+  }
+]

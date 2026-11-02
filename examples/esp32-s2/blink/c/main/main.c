@@ -1,0 +1,15 @@
+// Espressif ESP32-S2-Saola-1: blink GPIO15 (wire an LED and resistor to it: this board has no plain LED)
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "driver/gpio.h"
+
+#define LED 15
+
+void app_main(void) {
+    gpio_reset_pin(LED);
+    gpio_set_direction(LED, GPIO_MODE_OUTPUT);
+    for (int on = 1;; on = !on) {
+        gpio_set_level(LED, on);
+        vTaskDelay(pdMS_TO_TICKS(500));
+    }
+}

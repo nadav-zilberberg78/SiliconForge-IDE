@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en" data-theme="purple">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; worker-src 'self' blob:">
+  <title>SiliconForge IDE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg hidden aria-hidden="true">
+    <symbol id="i-chip" viewBox="0 0 24 24"><path d="M7 7h10v10H7zM9.5 3v4M14.5 3v4M9.5 17v4M14.5 17v4M3 9.5h4M3 14.5h4M17 9.5h4M17 14.5h4"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6h6l2 2h10v11H3z"/></symbol>
+    <symbol id="i-save" viewBox="0 0 24 24"><path d="M5 3h11l3 3v15H5zM8 3v5h7M8 21v-7h8v7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></symbol>
+    <symbol id="i-stop" viewBox="0 0 24 24"><path d="M7 7h10v10H7z"/></symbol>
+    <symbol id="i-sidebar" viewBox="0 0 24 24"><path d="M3 5h18v14H3zM9 5v14"/></symbol>
+    <symbol id="i-panel" viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 14h18"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><path d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></symbol>
+    <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3M4.5 4v4h4"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8.5 5v14M15.5 5v14"/></symbol>
+    <symbol id="i-clear" viewBox="0 0 24 24"><path d="M5 7h14M10 7V4h4v3M7 7l1 13h8l1-13"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6c-2-2-5-2.500-8-2v15c3-.5 6 0 8 2 2-2 5-2.500 8-2V4c-3-.5-6 0-8 2zM12 6v15"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M12 3l8 4.500v9L12 21l-8-4.500v-9zM4 7.500l8 4.500 8-4.500M12 12v9"/></symbol>
+    <symbol id="i-plug" viewBox="0 0 24 24"><path d="M9 3v5M15 3v5M6 8h12v3a6 6 0 0 1-12 0zM12 17v4"/></symbol>
+  </svg>
+
+  <nav id="menubar" role="menubar" aria-label="Application menu"></nav>
+  <div id="menu-pop" role="menu" hidden></div>
+
+  <header id="toolbar">
+    <div class="brand"><svg class="icon"><use href="#i-chip"/></svg>SiliconForge</div>
+    <div class="group">
+      <button id="new" title="New project (Ctrl+N)"><svg class="icon"><use href="#i-plus"/></svg>New</button>
+      <button id="open" title="Open folder (Ctrl+O)"><svg class="icon"><use href="#i-folder"/></svg>Open</button>
+      <button id="save" title="Save all (Ctrl+S)"><svg class="icon"><use href="#i-save"/></svg>Save</button>
+    </div>
+    <div class="group">
+      <button id="open-examples" title="Examples for every board (Ctrl+Shift+E)"><svg class="icon"><use href="#i-book"/></svg>Examples</button>
+      <button id="open-libraries" title="Library Manager (Ctrl+Shift+I)"><svg class="icon"><use href="#i-box"/></svg>Libraries</button>
+      <button id="open-boards" title="Boards Manager (Ctrl+Shift+B)"><svg class="icon"><use href="#i-chip"/></svg>Boards</button>
+    </div>
+    <div class="group">
+      <button id="verify" title="Build (Ctrl+R)"><svg class="icon"><use href="#i-check"/></svg>Verify</button>
+      <button id="upload" class="pad" title="Build and flash to the board (Ctrl+U)"><svg class="icon"><use href="#i-upload"/></svg>Upload</button>
+      <button id="stop" title="Stop the running task" disabled><svg class="icon"><use href="#i-stop"/></svg>Stop</button>
+    </div>
+
+    <button id="board-badge" class="footprint empty" aria-live="polite" disabled>
+      <span class="fp-name">No project open</span>
+      <span class="fp-spec"></span>
+    </button>
+
+    <label class="port" id="port-wrap">Port <input id="port" value="auto" size="7" list="port-list" spellcheck="false" autocomplete="off" title="&quot;auto&quot; uses the only plugged-in board. Click to pick from the detected ports."><datalist id="port-list"></datalist></label>
+    <div class="group">
+      <button id="toggle-sidebar" class="icon-only" aria-pressed="true" title="Show files (Ctrl+B)" aria-label="Show files"><svg class="icon"><use href="#i-sidebar"/></svg></button>
+      <button id="toggle-panel" class="icon-only" aria-pressed="true" title="Show bottom panel (Ctrl+J)" aria-label="Show bottom panel"><svg class="icon"><use href="#i-panel"/></svg></button>
+      <button id="open-settings" class="icon-only" title="Settings (Ctrl+,)" aria-label="Settings"><svg class="icon"><use href="#i-gear"/></svg></button>
+    </div>
+  </header>
+
+  <main>
+    <nav id="tree" aria-label="Project files"><p class="hint">Files of the open project appear here.</p></nav>
+    <div id="editor-wrap">
+      <div id="editor"></div>
+      <section id="welcome">
+        <h1>Pick a board, write code, upload.</h1>
+        <p>SiliconForge sets up the toolchain, build and flashing for C++ (Arduino), C, Rust and MicroPython projects on <span id="board-count">many</span> development boards.</p>
+        <div class="row">
+          <button class="pad" data-action="new"><svg class="icon"><use href="#i-plus"/></svg>New project</button>
+          <button data-action="open"><svg class="icon"><use href="#i-folder"/></svg>Open folder</button>
+          <button data-action="examples"><svg class="icon"><use href="#i-book"/></svg>Browse examples</button>
+        </div>
+        <div id="recent-wrap" hidden>
+          <h2>Recent projects</h2>
+          <ul id="recent"></ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="resizer" role="separator" aria-orientation="horizontal" aria-label="Resize bottom panel" tabindex="0"></div>
+
+  <section id="panel">
+    <div class="tabs" role="tablist">
+      <button role="tab" data-tab="console" aria-selected="true">Console</button>
+      <button role="tab" data-tab="serial" aria-selected="false">Serial monitor</button>
+      <button role="tab" data-tab="plotter" aria-selected="false">Plotter</button>
+    </div>
+
+    <div id="console" class="tab-body">
+      <div class="bar">
+        <button id="clear-console" title="Clear console"><svg class="icon"><use href="#i-clear"/></svg>Clear</button>
+      </div>
+      <div id="console-out" class="stream" role="log"></div>
+    </div>
+
+    <div id="serial" class="tab-body" hidden>
+      <div class="bar">
+        <button id="connect" class="pad"><svg class="icon"><use href="#i-plug"/></svg><span>Connect</span></button>
+        <button id="reset-board" title="Pulse DTR/RTS to reset boards with auto-reset (Arduino, ESP32)" disabled><svg class="icon"><use href="#i-reset"/></svg>Reset board</button>
+        <span class="sep"></span>
+        <label>Baud
+          <select id="baud" data-setting="baud">
+            <option>300</option><option>1200</option><option>2400</option><option>4800</option><option>9600</option>
+            <option>19200</option><option>38400</option><option>57600</option><option>74880</option><option>115200</option>
+            <option>230400</option><option>250000</option><option>460800</option><option>921600</option><option>1000000</option><option>2000000</option>
+          </select>
+        </label>
+        <label>Frame
+          <select id="frame" data-setting="frame" title="Data bits, parity, stop bits">
+            <option>8N1</option><option>8N2</option><option>8E1</option><option>8O1</option><option>7E1</option><option>7O1</option>
+          </select>
+        </label>
+        <label>Line ending
+          <select data-setting="lineEnding">
+            <option value="none">None</option><option value="lf">LF</option><option value="cr">CR</option><option value="crlf">CR+LF</option>
+          </select>
+        </label>
+        <span class="sep"></span>
+        <label class="chip"><input type="checkbox" data-setting="timestamps">Timestamps</label>
+        <label class="chip"><input type="checkbox" data-setting="autoscroll">Autoscroll</label>
+        <label class="chip"><input type="checkbox" data-setting="hex">Hex</label>
+        <button id="clear-serial" class="push-end"><svg class="icon"><use href="#i-clear"/></svg>Clear</button>
+      </div>
+      <pre id="serial-out" class="stream"></pre>
+      <form id="serial-send" class="bar">
+        <input id="serial-input" placeholder="Type a line to send to the board" aria-label="Send to board" autocomplete="off">
+        <button>Send</button>
+      </form>
+    </div>
+
+    <div id="plotter" class="tab-body" hidden>
+      <div class="bar">
+        <button id="plot-pause" aria-pressed="false"><svg class="icon"><use href="#i-pause"/></svg><span>Pause</span></button>
+        <label>Y axis
+          <select data-setting="plotAxis">
+            <option value="channel">Per channel</option><option value="shared">Shared</option>
+          </select>
+        </label>
+        <label>Window
+          <select data-setting="plotWindow">
+            <option value="100">100 samples</option><option value="250">250 samples</option><option value="500">500 samples</option>
+            <option value="1000">1000 samples</option><option value="2000">2000 samples</option>
+          </select>
+        </label>
+        <div id="legend" aria-label="Channels (click to show or hide)"></div>
+        <button id="plot-clear" class="push-end"><svg class="icon"><use href="#i-clear"/></svg>Clear</button>
+      </div>
+      <canvas id="plot"></canvas>
+      <p id="plot-empty" class="empty-note">Print numbers separated by commas or spaces, one sample per line, and they'll be graphed here. Example: <code>23.5,1012,0.42</code></p>
+    </div>
+  </section>
+
+  <footer id="status">
+    <span id="st-task">Ready</span>
+    <span id="st-serial">Serial disconnected</span>
+    <span class="push-end" id="st-cursor"></span>
+    <span id="st-lang"></span>
+  </footer>
+
+  <dialog id="wizard" aria-labelledby="w-title">
+    <form id="wizard-form">
+      <h2 id="w-title">New project</h2>
+      <div class="wizard-grid">
+        <div class="col">
+          <label>Board
+            <input id="w-search" type="search" placeholder="Search boards" autocomplete="off">
+          </label>
+          <select id="w-board" size="14" aria-label="Board"></select>
+        </div>
+        <div class="col">
+          <dl id="w-board-info"></dl>
+          <fieldset id="w-lang"><legend>Language</legend></fieldset>
+          <div class="row two" id="w-options">
+            <label id="w-opt-row">Optimize for
+              <select id="w-opt">
+                <option value="size">Size</option><option value="speed">Speed</option><option value="debug">Debugging</option>
+              </select>
+            </label>
+          </div>
+          <label class="new-only">Project name <input id="w-name" value="blinky" required pattern="[a-z][a-z0-9_\-]*" spellcheck="false" title="Lowercase letters, digits, - and _; starts with a letter"></label>
+          <label class="new-only">Location
+            <span class="row"><input id="w-dir" readonly placeholder="Choose a folder"><button type="button" id="w-browse">Browse</button></span>
+          </label>
+          <p class="change-only hint">Boards on another toolchain are hidden. Generated files you have not edited are updated; edited ones are kept.</p>
+        </div>
+      </div>
+      <p id="w-error" role="alert"></p>
+      <div class="row end">
+        <button type="button" data-close>Cancel</button>
+        <button class="pad" id="w-submit">Create project</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="examples" aria-labelledby="e-title">
+    <h2 id="e-title">Examples</h2>
+    <div class="examples-grid">
+      <label>Board <select id="e-board" size="16"></select></label>
+      <label>Example <select id="e-example" size="16"></select></label>
+      <label>Language <select id="e-lang" size="16"></select></label>
+      <pre id="e-preview" class="stream" tabindex="0" aria-label="Example source"></pre>
+    </div>
+    <p class="hint">Opening an example makes your own copy as a new project. The originals stay unchanged.</p>
+    <p id="e-error" class="dialog-error" role="alert"></p>
+    <div class="row end">
+      <button type="button" data-close>Cancel</button>
+      <button class="pad" id="e-open">Open a copy</button>
+    </div>
+  </dialog>
+
+  <dialog id="market" aria-labelledby="m-title">
+    <h2 id="m-title">Library Manager</h2>
+    <div class="row">
+      <input id="m-search" type="search" autocomplete="off" aria-label="Search">
+      <label class="chip"><input type="checkbox" id="m-installed">Installed</label>
+      <button id="m-refresh" title="Download the latest index"><svg class="icon"><use href="#i-reset"/></svg>Refresh</button>
+    </div>
+    <p id="m-note" class="hint"></p>
+    <ul id="m-list" class="market-list" aria-live="polite"></ul>
+    <details id="m-urls">
+      <summary>Additional board URLs</summary>
+      <textarea data-setting="boardUrls" rows="3" spellcheck="false" aria-label="Additional board manager URLs, one per line" placeholder="https://example.com/package_vendor_index.json"></textarea>
+      <p class="hint">ESP32, ESP8266, Raspberry Pi Pico and STM32 are already included. Add a vendor's URL here, then Refresh.</p>
+    </details>
+    <p id="m-status" class="hint"></p>
+    <p id="m-error" class="dialog-error" role="alert"></p>
+    <div class="row end"><button type="button" data-close>Close</button></div>
+  </dialog>
+
+  <dialog id="extensions" aria-labelledby="x-title">
+    <h2 id="x-title">Extensions</h2>
+    <p class="hint">Extensions add themes, snippets and commands. They run in a sandbox and can only read and edit the open file.</p>
+    <ul id="x-list" class="market-list"></ul>
+    <p id="x-error" class="dialog-error" role="alert"></p>
+    <div class="row">
+      <button type="button" id="x-install" class="pad">Install from folder</button>
+      <button type="button" id="x-folder">Open extensions folder</button>
+      <button type="button" class="push-end" data-close>Close</button>
+    </div>
+  </dialog>
+
+  <dialog id="settings" aria-labelledby="s-title">
+    <form method="dialog">
+      <h2 id="s-title">Settings</h2>
+      <div class="settings-grid">
+        <div class="s-nav" role="tablist" aria-orientation="vertical" aria-label="Settings pages">
+          <button type="button" role="tab" data-stab="appearance">Appearance</button>
+          <button type="button" role="tab" data-stab="editor">Editor</button>
+          <button type="button" role="tab" data-stab="build">Build and upload</button>
+          <button type="button" role="tab" data-stab="toolbar">Toolbar</button>
+          <button type="button" role="tab" data-stab="shortcuts">Shortcuts</button>
+        </div>
+        <div class="s-body">
+          <section data-spage="appearance">
+            <fieldset id="s-themes" class="themes"><legend>Theme</legend></fieldset>
+            <div class="row two">
+              <label>Accent color
+                <span class="row"><input type="color" data-setting="accent" aria-label="Accent color"><button type="button" id="s-accent-reset">Use theme color</button></span>
+              </label>
+              <label>Zoom (%) <input type="number" min="70" max="200" step="10" data-setting="uiScale"></label>
+            </div>
+            <div class="row two">
+              <label>Spacing
+                <select data-setting="density"><option value="comfortable">Comfortable</option><option value="compact">Compact</option></select>
+              </label>
+              <label>Corners
+                <select data-setting="corners"><option value="0">Square</option><option value="2">Slight</option><option value="4">Rounded</option><option value="8">Very rounded</option></select>
+              </label>
+            </div>
+            <div class="row two">
+              <label>Files side
+                <select data-setting="sidebarSide"><option value="left">Left</option><option value="right">Right</option></select>
+              </label>
+              <label>Files width <input type="range" min="160" max="420" step="10" data-setting="sidebarWidth"></label>
+            </div>
+            <div class="row two">
+              <label>Interface font <input data-setting="uiFont" list="font-list" placeholder="Default" spellcheck="false"></label>
+              <label>Console text size <input type="number" min="10" max="20" step="0.5" data-setting="streamSize"></label>
+            </div>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="statusBar">Show status bar</label>
+          </section>
+          <section data-spage="editor" hidden>
+            <div class="row two">
+              <label>Font size <input type="number" min="10" max="28" data-setting="fontSize"></label>
+              <label>Tab size
+                <select data-setting="tabSize"><option value="2">2 spaces</option><option value="4">4 spaces</option><option value="8">8 spaces</option></select>
+              </label>
+            </div>
+            <div class="row two">
+              <label>Code font <input data-setting="codeFont" list="font-list" placeholder="Default" spellcheck="false"></label>
+              <label>Line height <input type="number" min="0" max="40" data-setting="lineHeight" title="0 picks a height from the font size"></label>
+            </div>
+            <div class="row two">
+              <label>Cursor
+                <select data-setting="cursorStyle"><option value="line">Line</option><option value="block">Block</option><option value="underline">Underline</option></select>
+              </label>
+              <label>Cursor blink
+                <select data-setting="cursorBlink"><option value="smooth">Smooth</option><option value="blink">Blink</option><option value="phase">Fade</option><option value="solid">Off</option></select>
+              </label>
+            </div>
+            <label>Show spaces and tabs
+              <select data-setting="whitespace"><option value="none">Never</option><option value="selection">In selected text</option><option value="boundary">Between words</option><option value="all">Always</option></select>
+            </label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="wordWrap">Wrap long lines</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="minimap">Show minimap</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="lineNumbers">Show line numbers</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="bracketColors">Color matching brackets</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="autoClose">Close brackets and quotes automatically</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="stickyScroll">Keep the current function in view while scrolling</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="ligatures">Join symbols such as >= in supported fonts</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="smoothCaret">Animate the cursor</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="lint">Check code while typing and on save</label>
+          </section>
+          <section data-spage="build" hidden>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="autoSave">Save all files before building</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="clearConsole">Clear the console before each build</label>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="monitorAfterUpload">Reconnect the serial monitor after upload</label>
+          </section>
+          <section data-spage="toolbar" hidden>
+            <label class="switch"><input type="checkbox" role="switch" data-setting="iconsOnly">Show icons only</label>
+            <h3>Buttons</h3>
+            <div id="s-tools"></div>
+          </section>
+          <section data-spage="shortcuts" hidden>
+            <ul id="s-keys"></ul>
+          </section>
+        </div>
+      </div>
+      <datalist id="font-list"><option>Cascadia Code</option><option>Consolas</option><option>JetBrains Mono</option><option>Fira Code</option><option>Segoe UI</option><option>Bahnschrift</option><option>Courier New</option></datalist>
+      <div class="row">
+        <button type="button" id="s-reset">Reset all settings</button>
+        <button class="pad push-end">Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script src="lint.js"></script>
+  <script src="api.js"></script>
+  <script src="theme.js"></script>
+  <script src="renderer.js"></script>
+  <script src="menu.js"></script>
+  <script src="extensions.js"></script>
+</body>
+</html>

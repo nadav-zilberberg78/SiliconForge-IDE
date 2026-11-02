@@ -1,0 +1,2192 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1792320920.1614082,
+    "seen": 1792371250.3419578,
+    "ast_hash": "d60b96510e9bc8732be414a491cc487a",
+    "semantic_hash": ""
+  },
+  "main.js": {
+    "mtime": 1793619911.3124497,
+    "seen": 1793620137.7937145,
+    "ast_hash": "17d822bb79570fb4e18ac2fe1fb338e2",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1793615812.4642918,
+    "seen": 1793616539.3184044,
+    "ast_hash": "0faad042268c444e4eb811adb32d2ecd",
+    "semantic_hash": ""
+  },
+  "preload.js": {
+    "mtime": 1793619911.3124497,
+    "seen": 1793620137.7937145,
+    "ast_hash": "a4c5d48a111230401e611670f6133895",
+    "semantic_hash": ""
+  },
+  "renderer/renderer.js": {
+    "mtime": 1793620092.635517,
+    "seen": 1793620137.7937145,
+    "ast_hash": "f5d45c9c1fb9c26f2fe76feea201fa46",
+    "semantic_hash": ""
+  },
+  "src/boards.json": {
+    "mtime": 1793615719.8910282,
+    "seen": 1793616539.3184044,
+    "ast_hash": "6916201c0a7b47818c338c8d3e43bbee",
+    "semantic_hash": ""
+  },
+  "src/errors.js": {
+    "mtime": 1792370843.9812984,
+    "seen": 1792371250.3419578,
+    "ast_hash": "74a2825666d770cb6b4882bdd0f2ddcc",
+    "semantic_hash": ""
+  },
+  "src/scaffold.js": {
+    "mtime": 1793615606.1938646,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1744fff8a3307bb887ee0751f25c0a64",
+    "semantic_hash": ""
+  },
+  "test/core.test.js": {
+    "mtime": 1792415309.7707987,
+    "seen": 1792415349.301322,
+    "ast_hash": "e606dd4156f9d2615ca5f7c3c0661dc2",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1792320920.1564155,
+    "seen": 1792371250.3419578,
+    "ast_hash": "67d88e9d0760c3ba54c75dfd9551c1c5",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1793619911.3180408,
+    "seen": 1793620137.7937145,
+    "ast_hash": "d2d2628861aab71a2c3ea6e17a0150bc",
+    "semantic_hash": ""
+  },
+  "renderer/index.html": {
+    "mtime": 1793620036.6797845,
+    "seen": 1793620137.7937145,
+    "ast_hash": "3ad9553dfd4fa9672a13808cfc2833c7",
+    "semantic_hash": ""
+  },
+  "blink/siliconforge.json": {
+    "mtime": 1792415418.1498857,
+    "seen": 1793615204.9268503,
+    "ast_hash": "6eb16a111453130342470b5b68099ac3",
+    "semantic_hash": ""
+  },
+  "blink/src/main.c": {
+    "mtime": 1792415418.1479914,
+    "seen": 1793615204.9268503,
+    "ast_hash": "375e81da1425830477262cb8d426534e",
+    "semantic_hash": ""
+  },
+  "src/touch.js": {
+    "mtime": 1792415277.8243558,
+    "seen": 1792415349.301322,
+    "ast_hash": "56d043e8baac9eadada88e218f7b409a",
+    "semantic_hash": ""
+  },
+  "Tasks.md": {
+    "mtime": 1793615134.6042466,
+    "seen": 1793615204.9268503,
+    "ast_hash": "f5de671aee635561b5ae410d61d276b5",
+    "semantic_hash": ""
+  },
+  "examples/arduino-zero/hello/c/src/main.c": {
+    "mtime": 1793615966.6455252,
+    "seen": 1793616539.317901,
+    "ast_hash": "808ec1af1158141af79e56fb3f91eb6a",
+    "semantic_hash": ""
+  },
+  "examples/arduino-zero/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6455252,
+    "seen": 1793616539.317901,
+    "ast_hash": "726a889cc82766f7bb11206b3a71a3dd",
+    "semantic_hash": ""
+  },
+  "examples/blackpill-f411/analog-read/python/main.py": {
+    "mtime": 1793615966.6160452,
+    "seen": 1793616539.317901,
+    "ast_hash": "6d744a92c25c1156e59f08a6f8bb73ca",
+    "semantic_hash": ""
+  },
+  "examples/blackpill-f411/blink/python/main.py": {
+    "mtime": 1793615966.615039,
+    "seen": 1793616539.317901,
+    "ast_hash": "e8a8c212f4cc48c07930d13fdf25ec23",
+    "semantic_hash": ""
+  },
+  "examples/blackpill-f411/button/python/main.py": {
+    "mtime": 1793615966.615039,
+    "seen": 1793616539.317901,
+    "ast_hash": "caf67aeee026e5f17eb7ca9f32aef8cc",
+    "semantic_hash": ""
+  },
+  "examples/blackpill-f411/hello/c/src/main.c": {
+    "mtime": 1793615966.6139114,
+    "seen": 1793616539.317901,
+    "ast_hash": "870cd506c708cc913782d26a405947f8",
+    "semantic_hash": ""
+  },
+  "examples/blackpill-f411/hello/rust/src/main.rs": {
+    "mtime": 1793615966.615039,
+    "seen": 1793616539.317901,
+    "ast_hash": "fab2c704c574a4722bd9f3e7c51eb9bc",
+    "semantic_hash": ""
+  },
+  "examples/blackpill-f411/plotter/python/main.py": {
+    "mtime": 1793615966.6160452,
+    "seen": 1793616539.317901,
+    "ast_hash": "5e8138a0bab49a550bab59d567ce91ae",
+    "semantic_hash": ""
+  },
+  "examples/blackpill-f411/serial/python/main.py": {
+    "mtime": 1793615966.615039,
+    "seen": 1793616539.317901,
+    "ast_hash": "fc29674817a4096c1af7d06ce841cfa8",
+    "semantic_hash": ""
+  },
+  "examples/bluepill-f103/hello/c/src/main.c": {
+    "mtime": 1793615966.6115022,
+    "seen": 1793616539.317901,
+    "ast_hash": "03a03cc9e9c1c407656269bdbef28680",
+    "semantic_hash": ""
+  },
+  "examples/bluepill-f103/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6115022,
+    "seen": 1793616539.317901,
+    "ast_hash": "feaaae633ee8da7dfcc600adf5d6aaca",
+    "semantic_hash": ""
+  },
+  "examples/disco-f407/analog-read/python/main.py": {
+    "mtime": 1793615966.6374753,
+    "seen": 1793616539.317901,
+    "ast_hash": "d8cddd0703e3c877f8d310dd450ab6e2",
+    "semantic_hash": ""
+  },
+  "examples/disco-f407/blink/python/main.py": {
+    "mtime": 1793615966.6374753,
+    "seen": 1793616539.317901,
+    "ast_hash": "5ca9febfa3fd6d57d962689fd96b041d",
+    "semantic_hash": ""
+  },
+  "examples/disco-f407/button/python/main.py": {
+    "mtime": 1793615966.6374753,
+    "seen": 1793616539.317901,
+    "ast_hash": "98edac1e7fc82278abb364c7ecd08dfc",
+    "semantic_hash": ""
+  },
+  "examples/disco-f407/hello/c/src/main.c": {
+    "mtime": 1793615966.6364753,
+    "seen": 1793616539.317901,
+    "ast_hash": "01aa15ac48030fa8e430aaa488cea3ed",
+    "semantic_hash": ""
+  },
+  "examples/disco-f407/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6364753,
+    "seen": 1793616539.317901,
+    "ast_hash": "af1f9001550db110dfe4f66ca816f55a",
+    "semantic_hash": ""
+  },
+  "examples/disco-f407/plotter/python/main.py": {
+    "mtime": 1793615966.6374753,
+    "seen": 1793616539.317901,
+    "ast_hash": "b20d0c72577c92fbc88925b8eb67c6b4",
+    "semantic_hash": ""
+  },
+  "examples/disco-f407/serial/python/main.py": {
+    "mtime": 1793615966.6374753,
+    "seen": 1793616539.317901,
+    "ast_hash": "1b1af5e6460a67e5b6afe7e7c0fb4448",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/analog-read/c/main/main.c": {
+    "mtime": 1793615966.7267978,
+    "seen": 1793616539.317901,
+    "ast_hash": "4a2b154391393121c17399b3dfd73284",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/analog-read/python/main.py": {
+    "mtime": 1793615966.7279365,
+    "seen": 1793616539.317901,
+    "ast_hash": "96e1a87d529b0944dfe4a9dcccdfc596",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/blink/c/main/main.c": {
+    "mtime": 1793615966.725794,
+    "seen": 1793616539.317901,
+    "ast_hash": "468da4e91d325a87e8e24145990e69fe",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/blink/python/main.py": {
+    "mtime": 1793615966.7267978,
+    "seen": 1793616539.317901,
+    "ast_hash": "86061e251d3f6823519033d505903f94",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/button/c/main/main.c": {
+    "mtime": 1793615966.725794,
+    "seen": 1793616539.317901,
+    "ast_hash": "96255646f67d0c5734b6f83031d99a07",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/button/python/main.py": {
+    "mtime": 1793615966.7279365,
+    "seen": 1793616539.317901,
+    "ast_hash": "d7e2c9fcee82362a3e96817e9206a86f",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/fade/c/main/main.c": {
+    "mtime": 1793615966.725794,
+    "seen": 1793616539.317901,
+    "ast_hash": "8df4dc32287d862816ac2dede9a9fe4f",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/fade/python/main.py": {
+    "mtime": 1793615966.7279365,
+    "seen": 1793616539.317901,
+    "ast_hash": "f8dc3101ceec425fc5a842774ef1e42c",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/plotter/python/main.py": {
+    "mtime": 1793615966.7279365,
+    "seen": 1793616539.317901,
+    "ast_hash": "1f8325f4365c06de78eb32a9fa428cba",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/serial/c/main/main.c": {
+    "mtime": 1793615966.725794,
+    "seen": 1793616539.317901,
+    "ast_hash": "2696996cb761664fd7be495c6bf833e7",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/serial/python/main.py": {
+    "mtime": 1793615966.7267978,
+    "seen": 1793616539.317901,
+    "ast_hash": "63e3dfc0cfa5370bdf300a90b2c5ff31",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/servo/c/main/main.c": {
+    "mtime": 1793615966.7267978,
+    "seen": 1793616539.317901,
+    "ast_hash": "9a7038c056d40baf53aff05551c8591c",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c3/servo/python/main.py": {
+    "mtime": 1793615966.7289364,
+    "seen": 1793616539.317901,
+    "ast_hash": "054a4202d1e232eb4e83a83de8e332a5",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/analog-read/c/main/main.c": {
+    "mtime": 1793615966.736936,
+    "seen": 1793616539.317901,
+    "ast_hash": "26d7df8871d3dfb5d8b8a590c7bf6918",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/analog-read/python/main.py": {
+    "mtime": 1793615966.7379632,
+    "seen": 1793616539.317901,
+    "ast_hash": "92dd684863694ff408ed36a0530a3d57",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/blink/c/main/main.c": {
+    "mtime": 1793615966.736936,
+    "seen": 1793616539.317901,
+    "ast_hash": "d03fa89d889d1d0be8938d1c82fa823e",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/blink/python/main.py": {
+    "mtime": 1793615966.7379632,
+    "seen": 1793616539.317901,
+    "ast_hash": "abe5c64e3cbf20e5eae07727f297c5e6",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/button/c/main/main.c": {
+    "mtime": 1793615966.736936,
+    "seen": 1793616539.317901,
+    "ast_hash": "00f3cd3d3544a9f68a8c45571ecab912",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/button/python/main.py": {
+    "mtime": 1793615966.7379632,
+    "seen": 1793616539.317901,
+    "ast_hash": "822537193996eb955bff4ceac6da8a68",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/fade/c/main/main.c": {
+    "mtime": 1793615966.736936,
+    "seen": 1793616539.317901,
+    "ast_hash": "f33c21183764a4cd3c362d133a924b0b",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/fade/python/main.py": {
+    "mtime": 1793615966.738964,
+    "seen": 1793616539.317901,
+    "ast_hash": "21e8b3fdbc1faf51fbecc8f4f3b2e73b",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/plotter/python/main.py": {
+    "mtime": 1793615966.738964,
+    "seen": 1793616539.317901,
+    "ast_hash": "8c5ba396a94cbbec1dedf758329c615c",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/serial/c/main/main.c": {
+    "mtime": 1793615966.735936,
+    "seen": 1793616539.317901,
+    "ast_hash": "85a22d5ff44aa6a184852d99acc564bf",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/serial/python/main.py": {
+    "mtime": 1793615966.7379632,
+    "seen": 1793616539.317901,
+    "ast_hash": "e157cda847c490b6262ee75213925cd6",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/servo/c/main/main.c": {
+    "mtime": 1793615966.736936,
+    "seen": 1793616539.317901,
+    "ast_hash": "428b343d52807b985385d21af63b01cd",
+    "semantic_hash": ""
+  },
+  "examples/esp32-c6/servo/python/main.py": {
+    "mtime": 1793615966.738964,
+    "seen": 1793616539.317901,
+    "ast_hash": "ae4612023225ce11235c5b6263593ccc",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/analog-read/c/main/main.c": {
+    "mtime": 1793615966.6889162,
+    "seen": 1793616539.317901,
+    "ast_hash": "d6025df2d2606661a03df2ff1c3fd99a",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/analog-read/python/main.py": {
+    "mtime": 1793615966.6899207,
+    "seen": 1793616539.317901,
+    "ast_hash": "3313a0617916d92146fcae27d4721ea4",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/blink/c/main/main.c": {
+    "mtime": 1793615966.687728,
+    "seen": 1793616539.317901,
+    "ast_hash": "e6408cdf01edb3dd696b22394c10a6a2",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/blink/python/main.py": {
+    "mtime": 1793615966.6889162,
+    "seen": 1793616539.317901,
+    "ast_hash": "41ca673a2abaa3e3c9a73e8b0088219a",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/button/c/main/main.c": {
+    "mtime": 1793615966.687728,
+    "seen": 1793616539.317901,
+    "ast_hash": "71f9e59a261dedece37fccd0f9770ce9",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/button/python/main.py": {
+    "mtime": 1793615966.6899207,
+    "seen": 1793616539.317901,
+    "ast_hash": "8098178de57ce3184ad14f3ca75d8062",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/fade/c/main/main.c": {
+    "mtime": 1793615966.687728,
+    "seen": 1793616539.317901,
+    "ast_hash": "53f995083cc2148eb4367c9a9f7e29f1",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/fade/python/main.py": {
+    "mtime": 1793615966.6899207,
+    "seen": 1793616539.317901,
+    "ast_hash": "d72f9bf4a623b721bdd07e5d5736b73c",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/plotter/python/main.py": {
+    "mtime": 1793615966.6899207,
+    "seen": 1793616539.317901,
+    "ast_hash": "c8b48adff7efffbec5a5f0030f48f07a",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/serial/c/main/main.c": {
+    "mtime": 1793615966.687728,
+    "seen": 1793616539.317901,
+    "ast_hash": "5827ac62ccfa0e8d86df0cd373b0fb19",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/serial/python/main.py": {
+    "mtime": 1793615966.6889162,
+    "seen": 1793616539.317901,
+    "ast_hash": "7af3639ff01b9f9c8d0097ac6f2f5e69",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/servo/c/main/main.c": {
+    "mtime": 1793615966.6889162,
+    "seen": 1793616539.317901,
+    "ast_hash": "0767080ad2a01c9478fc071670f63d82",
+    "semantic_hash": ""
+  },
+  "examples/esp32-devkitc/servo/python/main.py": {
+    "mtime": 1793615966.6899207,
+    "seen": 1793616539.317901,
+    "ast_hash": "ccd8a04e43274d898e3d3889ddf17a00",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/analog-read/c/main/main.c": {
+    "mtime": 1793615966.6941707,
+    "seen": 1793616539.317901,
+    "ast_hash": "27188e01bc674221cfd7ed7f22546c6e",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/analog-read/python/main.py": {
+    "mtime": 1793615966.695675,
+    "seen": 1793616539.317901,
+    "ast_hash": "f37ac1f6acb13686f3126150f1f40fb3",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/blink/c/main/main.c": {
+    "mtime": 1793615966.69292,
+    "seen": 1793616539.317901,
+    "ast_hash": "af3a8b5a9573535f37418878364ba2d9",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/blink/python/main.py": {
+    "mtime": 1793615966.6941707,
+    "seen": 1793616539.317901,
+    "ast_hash": "05b3c10d5844e8ca5b7cbb782bcc95b5",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/button/c/main/main.c": {
+    "mtime": 1793615966.69292,
+    "seen": 1793616539.317901,
+    "ast_hash": "bba3f3d31bcf8d3b63ab97a69899530d",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/button/python/main.py": {
+    "mtime": 1793615966.6941707,
+    "seen": 1793616539.317901,
+    "ast_hash": "0573bcaf38c8359df11776c03564fe08",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/fade/c/main/main.c": {
+    "mtime": 1793615966.69292,
+    "seen": 1793616539.317901,
+    "ast_hash": "a3ec8e63d296b44f0acbc8c9690bbaa5",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/fade/python/main.py": {
+    "mtime": 1793615966.695675,
+    "seen": 1793616539.317901,
+    "ast_hash": "cdfead4e7c64952d593c3f6b0efd9404",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/plotter/python/main.py": {
+    "mtime": 1793615966.695675,
+    "seen": 1793616539.317901,
+    "ast_hash": "51faab50112759bda9d0e0632082fe18",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/serial/c/main/main.c": {
+    "mtime": 1793615966.69292,
+    "seen": 1793616539.317901,
+    "ast_hash": "e09f0e5b357ed4c50c142f85b724aced",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/serial/python/main.py": {
+    "mtime": 1793615966.6941707,
+    "seen": 1793616539.317901,
+    "ast_hash": "d24582d3762469ae3e7068029dfb2dd2",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/servo/c/main/main.c": {
+    "mtime": 1793615966.6941707,
+    "seen": 1793616539.317901,
+    "ast_hash": "ccbcc627870d6e624334b2361b5377e3",
+    "semantic_hash": ""
+  },
+  "examples/esp32-doit-v1/servo/python/main.py": {
+    "mtime": 1793615966.695675,
+    "seen": 1793616539.317901,
+    "ast_hash": "5c98184e5f435688f59a9b77c6f36757",
+    "semantic_hash": ""
+  },
+  "examples/esp32-h2/analog-read/c/main/main.c": {
+    "mtime": 1793615966.7423956,
+    "seen": 1793616539.317901,
+    "ast_hash": "4c4aadbbcbc712fada6d6a52f22b1bfc",
+    "semantic_hash": ""
+  },
+  "examples/esp32-h2/blink/c/main/main.c": {
+    "mtime": 1793615966.7413962,
+    "seen": 1793616539.317901,
+    "ast_hash": "fc3ab8e558300d85106a6fb359edbd5f",
+    "semantic_hash": ""
+  },
+  "examples/esp32-h2/button/c/main/main.c": {
+    "mtime": 1793615966.7413962,
+    "seen": 1793616539.317901,
+    "ast_hash": "5f4c16d2da9e29e5a32cd000b20dd0ca",
+    "semantic_hash": ""
+  },
+  "examples/esp32-h2/fade/c/main/main.c": {
+    "mtime": 1793615966.7413962,
+    "seen": 1793616539.317901,
+    "ast_hash": "7b62898b2dc3c3f66bc6ab552368ab9d",
+    "semantic_hash": ""
+  },
+  "examples/esp32-h2/serial/c/main/main.c": {
+    "mtime": 1793615966.7413962,
+    "seen": 1793616539.317901,
+    "ast_hash": "cee89c8f8e252aa1575b3a4f244411ec",
+    "semantic_hash": ""
+  },
+  "examples/esp32-h2/servo/c/main/main.c": {
+    "mtime": 1793615966.7423956,
+    "seen": 1793616539.317901,
+    "ast_hash": "752ca254acb8cc6be9ff3179829c82c8",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/analog-read/c/main/main.c": {
+    "mtime": 1793615966.7005472,
+    "seen": 1793616539.317901,
+    "ast_hash": "d2a1bbd50c2aac2c72173a22fa2fdd3c",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/analog-read/python/main.py": {
+    "mtime": 1793615966.7005472,
+    "seen": 1793616539.317901,
+    "ast_hash": "d64b5cca9cea6fc7299d9144a3d98140",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/blink/c/main/main.c": {
+    "mtime": 1793615966.6985464,
+    "seen": 1793616539.317901,
+    "ast_hash": "208daf9a8f84dd3e4acbb51a8bd477a3",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/blink/python/main.py": {
+    "mtime": 1793615966.7005472,
+    "seen": 1793616539.317901,
+    "ast_hash": "a1b82b73534f58cdcbe64bd0afa68590",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/button/c/main/main.c": {
+    "mtime": 1793615966.699547,
+    "seen": 1793616539.317901,
+    "ast_hash": "b72cfd66f4adfddd759692f396989c1e",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/button/python/main.py": {
+    "mtime": 1793615966.7005472,
+    "seen": 1793616539.317901,
+    "ast_hash": "dc7848c906278feeb6a9a8da9d40f308",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/fade/c/main/main.c": {
+    "mtime": 1793615966.699547,
+    "seen": 1793616539.317901,
+    "ast_hash": "1cd28d060e1879e881b378409fa7e06b",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/fade/python/main.py": {
+    "mtime": 1793615966.701608,
+    "seen": 1793616539.317901,
+    "ast_hash": "fbfd2dc7bace3dc8830f310d806b5ef7",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/plotter/python/main.py": {
+    "mtime": 1793615966.701608,
+    "seen": 1793616539.317901,
+    "ast_hash": "f0fc2ace9e628e8ceb6379c9092a3269",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/serial/c/main/main.c": {
+    "mtime": 1793615966.6985464,
+    "seen": 1793616539.3184044,
+    "ast_hash": "d48859096740c1d055955299daf06d90",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/serial/python/main.py": {
+    "mtime": 1793615966.7005472,
+    "seen": 1793616539.3184044,
+    "ast_hash": "8375478cf16a5cc4222ddc2ac1996e4d",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/servo/c/main/main.c": {
+    "mtime": 1793615966.699547,
+    "seen": 1793616539.3184044,
+    "ast_hash": "988a551a39863b19bfe97aedaa2c0f2a",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s2/servo/python/main.py": {
+    "mtime": 1793615966.701608,
+    "seen": 1793616539.3184044,
+    "ast_hash": "d38a129d9f2db4b2624016d7cec95862",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/analog-read/c/main/main.c": {
+    "mtime": 1793615966.7111225,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7db9423de5c1a6c4e4a2796a4b5a11a3",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/analog-read/python/main.py": {
+    "mtime": 1793615966.7121146,
+    "seen": 1793616539.3184044,
+    "ast_hash": "5143938d4ed7a19881d61412075d5dde",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/blink/c/main/main.c": {
+    "mtime": 1793615966.7101142,
+    "seen": 1793616539.3184044,
+    "ast_hash": "c61104fab036f409d2a1eef9f87b649d",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/blink/python/main.py": {
+    "mtime": 1793615966.7121146,
+    "seen": 1793616539.3184044,
+    "ast_hash": "6766dc0fb7cfe68046fe376f7e0cd7a8",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/button/c/main/main.c": {
+    "mtime": 1793615966.7101142,
+    "seen": 1793616539.3184044,
+    "ast_hash": "13a21fbf7f0ffc2a27a0b15d6e4ecfeb",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/button/python/main.py": {
+    "mtime": 1793615966.7121146,
+    "seen": 1793616539.3184044,
+    "ast_hash": "bd038798fcc0a43abe91d0f4e5cac4ee",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/fade/c/main/main.c": {
+    "mtime": 1793615966.7111225,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ad59930e2aff56ee3c1a5c763eca9457",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/fade/python/main.py": {
+    "mtime": 1793615966.7121146,
+    "seen": 1793616539.3184044,
+    "ast_hash": "96cf82213d9e4bd52d05b4daacf135d2",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/plotter/python/main.py": {
+    "mtime": 1793615966.7121146,
+    "seen": 1793616539.3184044,
+    "ast_hash": "8408863b049c066f78c6d119f6a08cee",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/serial/c/main/main.c": {
+    "mtime": 1793615966.7101142,
+    "seen": 1793616539.3184044,
+    "ast_hash": "a67b7a4273c7fbfb168e14d85a2fd28a",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/serial/python/main.py": {
+    "mtime": 1793615966.7121146,
+    "seen": 1793616539.3184044,
+    "ast_hash": "958cbf917ccd957224dff435ae6dcaf9",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/servo/c/main/main.c": {
+    "mtime": 1793615966.7111225,
+    "seen": 1793616539.3184044,
+    "ast_hash": "0619e613fc9c429056f427919d8e8ffa",
+    "semantic_hash": ""
+  },
+  "examples/esp32-s3/servo/python/main.py": {
+    "mtime": 1793615966.7134411,
+    "seen": 1793616539.3184044,
+    "ast_hash": "e303adb2afffcd9148cf87c5badc56db",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/analog-read/c/src/main.c": {
+    "mtime": 1793615966.6764681,
+    "seen": 1793616539.3184044,
+    "ast_hash": "26453b8d46b66dd42ec103a7cc7a0561",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/analog-read/python/main.py": {
+    "mtime": 1793615966.678909,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1f9ddbe04727f84c27bb8fa528deec60",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/blink/c/src/main.c": {
+    "mtime": 1793615966.6752028,
+    "seen": 1793616539.3184044,
+    "ast_hash": "91cf4778cf7b0530416eb8d72652da38",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/blink/python/main.py": {
+    "mtime": 1793615966.677896,
+    "seen": 1793616539.3184044,
+    "ast_hash": "e361cda33ae89ca279104a25f0a145b3",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/button/c/src/main.c": {
+    "mtime": 1793615966.6764681,
+    "seen": 1793616539.3184044,
+    "ast_hash": "a27a233d4884e824499576abca9c7da3",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/button/python/main.py": {
+    "mtime": 1793615966.678909,
+    "seen": 1793616539.3184044,
+    "ast_hash": "e05c914690f26a3b27796557e3680784",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/fade/c/src/main.c": {
+    "mtime": 1793615966.6764681,
+    "seen": 1793616539.3184044,
+    "ast_hash": "720c9c7d65e225178b04576110ff3a78",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/fade/python/main.py": {
+    "mtime": 1793615966.678909,
+    "seen": 1793616539.3184044,
+    "ast_hash": "6ff7ff84b08435e3a91a1b6c74615e90",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/hello/rust/src/main.rs": {
+    "mtime": 1793615966.677896,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ea891c99a141ac89d34096969c2c400c",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/plotter/python/main.py": {
+    "mtime": 1793615966.678909,
+    "seen": 1793616539.3184044,
+    "ast_hash": "364f04e23b24f9b52f0b1b49c66bdd31",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/serial/c/src/main.c": {
+    "mtime": 1793615966.6752028,
+    "seen": 1793616539.3184044,
+    "ast_hash": "be6248c19400ba5ac033ef86d75abc54",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/serial/python/main.py": {
+    "mtime": 1793615966.677896,
+    "seen": 1793616539.3184044,
+    "ast_hash": "bd955700f0c4d98dbcfc9d982f5efcd9",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/servo/c/src/main.c": {
+    "mtime": 1793615966.6764681,
+    "seen": 1793616539.3184044,
+    "ast_hash": "28f634d32fcc27a3ea607fa08a20e3e7",
+    "semantic_hash": ""
+  },
+  "examples/feather-rp2040/servo/python/main.py": {
+    "mtime": 1793615966.678909,
+    "seen": 1793616539.3184044,
+    "ast_hash": "adf9c655d303c0b81edb0c50f9d50fd7",
+    "semantic_hash": ""
+  },
+  "examples/leonardo/analog-read/c/src/main.c": {
+    "mtime": 1793615966.5986383,
+    "seen": 1793616539.3184044,
+    "ast_hash": "b89ad88417b292be6f4daf1997a1ef44",
+    "semantic_hash": ""
+  },
+  "examples/leonardo/blink/c/src/main.c": {
+    "mtime": 1793615966.5976386,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9673a35106e867d5c8b5bbd4a2f92a84",
+    "semantic_hash": ""
+  },
+  "examples/leonardo/button/c/src/main.c": {
+    "mtime": 1793615966.5976386,
+    "seen": 1793616539.3184044,
+    "ast_hash": "5dcd89bdc1f73c2374194f6d001fb7a9",
+    "semantic_hash": ""
+  },
+  "examples/leonardo/fade/c/src/main.c": {
+    "mtime": 1793615966.5986383,
+    "seen": 1793616539.3184044,
+    "ast_hash": "721d7a4180abfef2b9fbcd6b9e8c7f01",
+    "semantic_hash": ""
+  },
+  "examples/leonardo/servo/c/src/main.c": {
+    "mtime": 1793615966.5986383,
+    "seen": 1793616539.3184044,
+    "ast_hash": "0ff9bc97997a7b921826820abe55d305",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/analog-read/c/main/main.c": {
+    "mtime": 1793615966.7061107,
+    "seen": 1793616539.3184044,
+    "ast_hash": "816a2733460bae4856de96a3c0da8633",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/analog-read/python/main.py": {
+    "mtime": 1793615966.707116,
+    "seen": 1793616539.3184044,
+    "ast_hash": "cc7e6f6ea5dcad961edc092466c65bf9",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/blink/c/main/main.c": {
+    "mtime": 1793615966.704607,
+    "seen": 1793616539.3184044,
+    "ast_hash": "72391dbe40ca5c4e076cf495323854c9",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/blink/python/main.py": {
+    "mtime": 1793615966.7061107,
+    "seen": 1793616539.3184044,
+    "ast_hash": "69075087c422b21473145f52858093f7",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/button/c/main/main.c": {
+    "mtime": 1793615966.704607,
+    "seen": 1793616539.3184044,
+    "ast_hash": "002ae21e17b81865be0fec6737e40b5b",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/button/python/main.py": {
+    "mtime": 1793615966.7061107,
+    "seen": 1793616539.3184044,
+    "ast_hash": "dfbd8110d498787d32163d560de60076",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/fade/c/main/main.c": {
+    "mtime": 1793615966.704607,
+    "seen": 1793616539.3184044,
+    "ast_hash": "0012ec881c8cbd7b7160f47801f589e0",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/fade/python/main.py": {
+    "mtime": 1793615966.707116,
+    "seen": 1793616539.3184044,
+    "ast_hash": "bfdb499e4f0f7036e702c50bdaa666e6",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/plotter/python/main.py": {
+    "mtime": 1793615966.707116,
+    "seen": 1793616539.3184044,
+    "ast_hash": "36d43813e708cfe161c11c31d0ffbe11",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/serial/c/main/main.c": {
+    "mtime": 1793615966.704607,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9cd91b8294b8273002829c7152da0385",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/serial/python/main.py": {
+    "mtime": 1793615966.7061107,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f680cd6577bd90584880affb31b861b3",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/servo/c/main/main.c": {
+    "mtime": 1793615966.704607,
+    "seen": 1793616539.3184044,
+    "ast_hash": "63ee6dc9a705a41dfe53f97cfd05d2e5",
+    "semantic_hash": ""
+  },
+  "examples/lolin-s2-mini/servo/python/main.py": {
+    "mtime": 1793615966.707116,
+    "seen": 1793616539.3184044,
+    "ast_hash": "919a20915100d4db5068950f8a205afc",
+    "semantic_hash": ""
+  },
+  "examples/mega2560/analog-read/c/src/main.c": {
+    "mtime": 1793615966.6077058,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ac3533d015e3438a3d9feb6c5fedd5c5",
+    "semantic_hash": ""
+  },
+  "examples/mega2560/blink/c/src/main.c": {
+    "mtime": 1793615966.6077058,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3eb49d5288e894742f401e74e2ac6ef3",
+    "semantic_hash": ""
+  },
+  "examples/mega2560/button/c/src/main.c": {
+    "mtime": 1793615966.6077058,
+    "seen": 1793616539.3184044,
+    "ast_hash": "e871648fa1f697abb2c42b19dcf87cc7",
+    "semantic_hash": ""
+  },
+  "examples/mega2560/fade/c/src/main.c": {
+    "mtime": 1793615966.6077058,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f1997f64d3637ab9c69220306d5c6ef0",
+    "semantic_hash": ""
+  },
+  "examples/mega2560/servo/c/src/main.c": {
+    "mtime": 1793615966.6077058,
+    "seen": 1793616539.3184044,
+    "ast_hash": "21b76938d590a7084fe504256f9453bb",
+    "semantic_hash": ""
+  },
+  "examples/micro/analog-read/c/src/main.c": {
+    "mtime": 1793615966.6026723,
+    "seen": 1793616539.3184044,
+    "ast_hash": "137a3e0ea8890c21d99914baa49f3b0f",
+    "semantic_hash": ""
+  },
+  "examples/micro/blink/c/src/main.c": {
+    "mtime": 1793615966.601642,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ad8033dedbf094447dfc82f1c745fc58",
+    "semantic_hash": ""
+  },
+  "examples/micro/button/c/src/main.c": {
+    "mtime": 1793615966.601642,
+    "seen": 1793616539.3184044,
+    "ast_hash": "e6298ee3ecd9744f9f07c42b95196187",
+    "semantic_hash": ""
+  },
+  "examples/micro/fade/c/src/main.c": {
+    "mtime": 1793615966.601642,
+    "seen": 1793616539.3184044,
+    "ast_hash": "fa6a65c2aeca0588526a9c89a0d30542",
+    "semantic_hash": ""
+  },
+  "examples/micro/servo/c/src/main.c": {
+    "mtime": 1793615966.6026723,
+    "seen": 1793616539.3184044,
+    "ast_hash": "62f45cc13346196ee31f3bc10fb0a612",
+    "semantic_hash": ""
+  },
+  "examples/microbit-v2/hello/c/src/main.c": {
+    "mtime": 1793615966.6430168,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f372ee5ae164a497b1993335f6c61b4b",
+    "semantic_hash": ""
+  },
+  "examples/microbit-v2/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6430168,
+    "seen": 1793616539.3184044,
+    "ast_hash": "08aa44923e0ed171b79f883aa6b619e8",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/analog-read/c/main/main.c": {
+    "mtime": 1793615966.721478,
+    "seen": 1793616539.3184044,
+    "ast_hash": "2cf2c871e92f2ae0a326a22c0cb81f7d",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/analog-read/python/main.py": {
+    "mtime": 1793615966.7227483,
+    "seen": 1793616539.3184044,
+    "ast_hash": "84e0e4cd26b69b2dd2b0b9070b181110",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/blink/c/main/main.c": {
+    "mtime": 1793615966.7204778,
+    "seen": 1793616539.3184044,
+    "ast_hash": "78bd0dee9bcfaeb4597b56e250593261",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/blink/python/main.py": {
+    "mtime": 1793615966.721478,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ff7ba1cd57656882782676818df8f6d1",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/button/c/main/main.c": {
+    "mtime": 1793615966.7204778,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9354fefe783e4df8f3a3ca439d7df6e1",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/button/python/main.py": {
+    "mtime": 1793615966.721478,
+    "seen": 1793616539.3184044,
+    "ast_hash": "6d7266826a40398533693c220d06ecaf",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/fade/c/main/main.c": {
+    "mtime": 1793615966.721478,
+    "seen": 1793616539.3184044,
+    "ast_hash": "cc1c116f03774b45238e8e7753ea38d5",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/fade/python/main.py": {
+    "mtime": 1793615966.7227483,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7bb96e71071771f9d337cee04b9b877e",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/plotter/python/main.py": {
+    "mtime": 1793615966.7227483,
+    "seen": 1793616539.3184044,
+    "ast_hash": "fb16e7fd3622205f71205db0225957ac",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/serial/c/main/main.c": {
+    "mtime": 1793615966.7204778,
+    "seen": 1793616539.3184044,
+    "ast_hash": "68feb576538d04d06895903c469407cd",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/serial/python/main.py": {
+    "mtime": 1793615966.721478,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3d661ec6355b1284678cefbfe6718df1",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/servo/c/main/main.c": {
+    "mtime": 1793615966.721478,
+    "seen": 1793616539.3184044,
+    "ast_hash": "bbf33ca5d097ff5504d01700e126b2e0",
+    "semantic_hash": ""
+  },
+  "examples/nano-esp32/servo/python/main.py": {
+    "mtime": 1793615966.7227483,
+    "seen": 1793616539.3184044,
+    "ast_hash": "351a4079ef298eb8753f9f2da9c841e8",
+    "semantic_hash": ""
+  },
+  "examples/nano-every/hello/c/src/main.c": {
+    "mtime": 1793615966.6052177,
+    "seen": 1793616539.3184044,
+    "ast_hash": "56b679af81840743834272403bd1bb32",
+    "semantic_hash": ""
+  },
+  "examples/nano-old/analog-read/c/src/main.c": {
+    "mtime": 1793615966.5876946,
+    "seen": 1793616539.3184044,
+    "ast_hash": "17a5330ff3e1e555a8f3e3a6d91470ec",
+    "semantic_hash": ""
+  },
+  "examples/nano-old/blink/c/src/main.c": {
+    "mtime": 1793615966.5859256,
+    "seen": 1793616539.3184044,
+    "ast_hash": "4eae46395d5b7142066be58e24e03f52",
+    "semantic_hash": ""
+  },
+  "examples/nano-old/button/c/src/main.c": {
+    "mtime": 1793615966.587386,
+    "seen": 1793616539.3184044,
+    "ast_hash": "35d2bfc56ef13c986f5f3f3ff3354a1c",
+    "semantic_hash": ""
+  },
+  "examples/nano-old/fade/c/src/main.c": {
+    "mtime": 1793615966.5876946,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3a8f87bf9521828783373c667f359901",
+    "semantic_hash": ""
+  },
+  "examples/nano-old/servo/c/src/main.c": {
+    "mtime": 1793615966.588199,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3ee361b3c4a8d0e5e63dd3cccacf1610",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/analog-read/c/src/main.c": {
+    "mtime": 1793615966.6605268,
+    "seen": 1793616539.3184044,
+    "ast_hash": "78f7f544c8c6f5381160290ea9f728cb",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/analog-read/python/main.py": {
+    "mtime": 1793615966.6616223,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9b2d7b23d93668061d95afcf06aa72f6",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/blink/c/src/main.c": {
+    "mtime": 1793615966.6590226,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f829913f8c5002dd2dd5f4ae6589c559",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/blink/python/main.py": {
+    "mtime": 1793615966.6605268,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f958e6a587b8769d84d7ff6787d3f5da",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/button/c/src/main.c": {
+    "mtime": 1793615966.6590226,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7aafddcec17d9abcb22cd62e27133848",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/button/python/main.py": {
+    "mtime": 1793615966.6616223,
+    "seen": 1793616539.3184044,
+    "ast_hash": "4f656ed64d189aa1131075c7254ef2db",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/fade/c/src/main.c": {
+    "mtime": 1793615966.6590226,
+    "seen": 1793616539.3184044,
+    "ast_hash": "a1375310ccddba719c725173896ebb7f",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/fade/python/main.py": {
+    "mtime": 1793615966.6616223,
+    "seen": 1793616539.3184044,
+    "ast_hash": "8f4c741723e5e8c99d1f377e2c82bffa",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6605268,
+    "seen": 1793616539.3184044,
+    "ast_hash": "44d2ef722229257abcaee9c9d51ba373",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/plotter/python/main.py": {
+    "mtime": 1793615966.6616223,
+    "seen": 1793616539.3184044,
+    "ast_hash": "bdbaca107916d035cd6b3187335cad82",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/serial/c/src/main.c": {
+    "mtime": 1793615966.6590226,
+    "seen": 1793616539.3184044,
+    "ast_hash": "b8e667eb7cc90748fbd47a5eac45c2b4",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/serial/python/main.py": {
+    "mtime": 1793615966.6605268,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7ca9c8b91d853b32589ea6f6d7a43225",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/servo/c/src/main.c": {
+    "mtime": 1793615966.6605268,
+    "seen": 1793616539.3184044,
+    "ast_hash": "0e835da7efc9e1ed345b192bc458cc5a",
+    "semantic_hash": ""
+  },
+  "examples/nano-rp2040/servo/python/main.py": {
+    "mtime": 1793615966.6616223,
+    "seen": 1793616539.3184044,
+    "ast_hash": "a2a0b7ad6be9770c1ecdf22021004b38",
+    "semantic_hash": ""
+  },
+  "examples/nano/analog-read/c/src/main.c": {
+    "mtime": 1793615966.5836856,
+    "seen": 1793616539.3184044,
+    "ast_hash": "5ddd05be1cc79d7f5f62f8c49c78f1d4",
+    "semantic_hash": ""
+  },
+  "examples/nano/blink/c/src/main.c": {
+    "mtime": 1793615966.582648,
+    "seen": 1793616539.3184044,
+    "ast_hash": "fccb7c028c8de4ed8034a170eff5ddc3",
+    "semantic_hash": ""
+  },
+  "examples/nano/button/c/src/main.c": {
+    "mtime": 1793615966.5836856,
+    "seen": 1793616539.3184044,
+    "ast_hash": "991143a489df0d788d152a8cd302185e",
+    "semantic_hash": ""
+  },
+  "examples/nano/fade/c/src/main.c": {
+    "mtime": 1793615966.5836856,
+    "seen": 1793616539.3184044,
+    "ast_hash": "46b667e0b23d873fe66060d20446f270",
+    "semantic_hash": ""
+  },
+  "examples/nano/servo/c/src/main.c": {
+    "mtime": 1793615966.5836856,
+    "seen": 1793616539.3184044,
+    "ast_hash": "40236e29b0b0fead86738596f874bf55",
+    "semantic_hash": ""
+  },
+  "examples/nodemcu-esp8266/analog-read/python/main.py": {
+    "mtime": 1793615966.745396,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ffaf65869e912c79c3eda62d06997e80",
+    "semantic_hash": ""
+  },
+  "examples/nodemcu-esp8266/blink/python/main.py": {
+    "mtime": 1793615966.7443957,
+    "seen": 1793616539.3184044,
+    "ast_hash": "bb3acdee452f1641fa7a3cacd767602e",
+    "semantic_hash": ""
+  },
+  "examples/nodemcu-esp8266/button/python/main.py": {
+    "mtime": 1793615966.745396,
+    "seen": 1793616539.3184044,
+    "ast_hash": "8bd2270aee17e1d3628053d883ef24d7",
+    "semantic_hash": ""
+  },
+  "examples/nodemcu-esp8266/fade/python/main.py": {
+    "mtime": 1793615966.745396,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9956a391f1f7970b4b6a16b8d91c37f9",
+    "semantic_hash": ""
+  },
+  "examples/nodemcu-esp8266/plotter/python/main.py": {
+    "mtime": 1793615966.745396,
+    "seen": 1793616539.3184044,
+    "ast_hash": "32cca98df28469d4172088ed26eebcdb",
+    "semantic_hash": ""
+  },
+  "examples/nodemcu-esp8266/serial/python/main.py": {
+    "mtime": 1793615966.7443957,
+    "seen": 1793616539.3184044,
+    "ast_hash": "153c1f763d2b44e3831b0bb65d3ab960",
+    "semantic_hash": ""
+  },
+  "examples/nodemcu-esp8266/servo/python/main.py": {
+    "mtime": 1793615966.745396,
+    "seen": 1793616539.3184044,
+    "ast_hash": "fafcceede3ccd4cd28a8843289035405",
+    "semantic_hash": ""
+  },
+  "examples/nrf52840dk/hello/c/src/main.c": {
+    "mtime": 1793615966.6419518,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ad2d0306c4ceddfbb16f787f80e99e4f",
+    "semantic_hash": ""
+  },
+  "examples/nrf52840dk/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6430168,
+    "seen": 1793616539.3184044,
+    "ast_hash": "64829a294cf25c8e4f439bd280d9cc5f",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f103rb/hello/c/src/main.c": {
+    "mtime": 1793615966.622722,
+    "seen": 1793616539.3184044,
+    "ast_hash": "bfc4c1b21b2bc3576f3813ca57bbd298",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f103rb/hello/rust/src/main.rs": {
+    "mtime": 1793615966.622722,
+    "seen": 1793616539.3184044,
+    "ast_hash": "5c924e15affc8d1fb1bad17c61fa7232",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f401re/analog-read/python/main.py": {
+    "mtime": 1793615966.619588,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1e106141b2e2c373f68d5de5601c9c7b",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f401re/blink/python/main.py": {
+    "mtime": 1793615966.6185813,
+    "seen": 1793616539.3184044,
+    "ast_hash": "5aca4e95c587c52401be77df61a888dd",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f401re/button/python/main.py": {
+    "mtime": 1793615966.619588,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3efb53252a6ea65d5ac8301f97396140",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f401re/hello/c/src/main.c": {
+    "mtime": 1793615966.6185813,
+    "seen": 1793616539.3184044,
+    "ast_hash": "57c9fbdef0d4247dfa636876692c0eaa",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f401re/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6185813,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7e22567861ae674cd8681e0e594ed583",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f401re/plotter/python/main.py": {
+    "mtime": 1793615966.619588,
+    "seen": 1793616539.3184044,
+    "ast_hash": "0986bfe1f3c3b1163a76ae9c56aad3f5",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f401re/serial/python/main.py": {
+    "mtime": 1793615966.6185813,
+    "seen": 1793616539.3184044,
+    "ast_hash": "565e2530c5a2d10806a3048839eaa846",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f446re/analog-read/python/main.py": {
+    "mtime": 1793615966.6265252,
+    "seen": 1793616539.3184044,
+    "ast_hash": "13a87981dc2cd024a469e317692c1b4b",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f446re/blink/python/main.py": {
+    "mtime": 1793615966.625521,
+    "seen": 1793616539.3184044,
+    "ast_hash": "307663bc11a29fbcf48cb8e7215c0bc2",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f446re/button/python/main.py": {
+    "mtime": 1793615966.6265252,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ef97d2bb266e1c661050a777ee7132dd",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f446re/hello/c/src/main.c": {
+    "mtime": 1793615966.625521,
+    "seen": 1793616539.3184044,
+    "ast_hash": "23f52521d5aa34379214c73b70107785",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f446re/hello/rust/src/main.rs": {
+    "mtime": 1793615966.625521,
+    "seen": 1793616539.3184044,
+    "ast_hash": "c7cc9ab0ebc60f26aa2aaa6f6e016192",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f446re/plotter/python/main.py": {
+    "mtime": 1793615966.6265252,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7efc45b934db3b188b08880c5ff02263",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-f446re/serial/python/main.py": {
+    "mtime": 1793615966.6265252,
+    "seen": 1793616539.3184044,
+    "ast_hash": "10f7f02745e604f45bf5b9b613648124",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-g431rb/hello/c/src/main.c": {
+    "mtime": 1793615966.633959,
+    "seen": 1793616539.3184044,
+    "ast_hash": "84058ea90f4f89c7e49c32d890fe16f6",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-g431rb/hello/rust/src/main.rs": {
+    "mtime": 1793615966.633959,
+    "seen": 1793616539.3184044,
+    "ast_hash": "79b0982c6e1f91f9c9c16e3248dd6ff3",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-h743zi/analog-read/python/main.py": {
+    "mtime": 1793615966.6419518,
+    "seen": 1793616539.3184044,
+    "ast_hash": "5015a2ce60b422dbaf2cf2573cebd3e6",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-h743zi/blink/python/main.py": {
+    "mtime": 1793615966.6405613,
+    "seen": 1793616539.3184044,
+    "ast_hash": "b9ab145439741266490d073e9e979436",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-h743zi/button/python/main.py": {
+    "mtime": 1793615966.6419518,
+    "seen": 1793616539.3184044,
+    "ast_hash": "b433400a3ed045c26d7f87d86f7dc714",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-h743zi/hello/c/src/main.c": {
+    "mtime": 1793615966.6405613,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9a19ef3bfcaa464090417642ef95e882",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-h743zi/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6405613,
+    "seen": 1793616539.3184044,
+    "ast_hash": "566cad0c03916b7cc0b258aaf088cf98",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-h743zi/plotter/python/main.py": {
+    "mtime": 1793615966.6419518,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1a3773b41e53b95eb6ab267d086681dc",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-h743zi/serial/python/main.py": {
+    "mtime": 1793615966.6405613,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9aec1be651b3fe46c31fc1ea3b31813e",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-l476rg/analog-read/python/main.py": {
+    "mtime": 1793615966.631069,
+    "seen": 1793616539.3184044,
+    "ast_hash": "166dfd40acebd9aa023b386b29a79596",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-l476rg/blink/python/main.py": {
+    "mtime": 1793615966.6300693,
+    "seen": 1793616539.3184044,
+    "ast_hash": "cac3139bba2805a92437931b0b0c9825",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-l476rg/button/python/main.py": {
+    "mtime": 1793615966.6300693,
+    "seen": 1793616539.3184044,
+    "ast_hash": "33bc36143f3783ffd2f5c45e06478362",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-l476rg/hello/c/src/main.c": {
+    "mtime": 1793615966.6290698,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1525ddc4e8bf20975d0fc6c06882e3d7",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-l476rg/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6300693,
+    "seen": 1793616539.3184044,
+    "ast_hash": "83fe2e76afda959dcdd651bd4fb0a39f",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-l476rg/plotter/python/main.py": {
+    "mtime": 1793615966.631069,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7d8824588c2f250604383ceeace81191",
+    "semantic_hash": ""
+  },
+  "examples/nucleo-l476rg/serial/python/main.py": {
+    "mtime": 1793615966.6300693,
+    "seen": 1793616539.3184044,
+    "ast_hash": "4e3aafefcd8f6bd46409457c2cb3145f",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/analog-read/c/src/main.c": {
+    "mtime": 1793615966.6546845,
+    "seen": 1793616539.3184044,
+    "ast_hash": "c54eccb8602773bcd7826448580c8deb",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/analog-read/python/main.py": {
+    "mtime": 1793615966.655702,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1114a16b896fe5ac69b0444dc0d01f7f",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/blink/c/src/main.c": {
+    "mtime": 1793615966.6536815,
+    "seen": 1793616539.3184044,
+    "ast_hash": "4ca137cbc555ed005bf6436735536b16",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/blink/python/main.py": {
+    "mtime": 1793615966.655702,
+    "seen": 1793616539.3184044,
+    "ast_hash": "37a895dffd563bbc35a8785c7d2bbe64",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/button/c/src/main.c": {
+    "mtime": 1793615966.6536815,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1830a02e6cec0a9f44d2765d954582ec",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/button/python/main.py": {
+    "mtime": 1793615966.655702,
+    "seen": 1793616539.3184044,
+    "ast_hash": "aead29d3224df32331094ae4efd78c41",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/fade/c/src/main.c": {
+    "mtime": 1793615966.6546845,
+    "seen": 1793616539.3184044,
+    "ast_hash": "fa676d16e14aa77147185a870c254a06",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/fade/python/main.py": {
+    "mtime": 1793615966.655702,
+    "seen": 1793616539.3184044,
+    "ast_hash": "258500a6f23b1b0ac509109eabb2fc32",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6546845,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f821714017253201c81f7fab7522f1ef",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/plotter/python/main.py": {
+    "mtime": 1793615966.655702,
+    "seen": 1793616539.3184044,
+    "ast_hash": "68057debfe5b3099db3208c76a97efaf",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/serial/c/src/main.c": {
+    "mtime": 1793615966.6536815,
+    "seen": 1793616539.3184044,
+    "ast_hash": "12de1be8f1e178699e3a0c4356b8463c",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/serial/python/main.py": {
+    "mtime": 1793615966.655702,
+    "seen": 1793616539.3184044,
+    "ast_hash": "fa305b9dc319956d104d5933c8bc03b0",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/servo/c/src/main.c": {
+    "mtime": 1793615966.6546845,
+    "seen": 1793616539.3184044,
+    "ast_hash": "0dbe1be48026b41fcfb6fbbf9e44a90c",
+    "semantic_hash": ""
+  },
+  "examples/pico-w/servo/python/main.py": {
+    "mtime": 1793615966.657018,
+    "seen": 1793616539.3184044,
+    "ast_hash": "133535429c58be8bb22370f1a04e5756",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/analog-read/c/src/main.c": {
+    "mtime": 1793615966.6716936,
+    "seen": 1793616539.3184044,
+    "ast_hash": "43795c6e55dcca15cbae43a4bbf8b3bc",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/analog-read/python/main.py": {
+    "mtime": 1793615966.6726983,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7d3801b697fa40552638dce79e8568fb",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/blink/c/src/main.c": {
+    "mtime": 1793615966.6702056,
+    "seen": 1793616539.3184044,
+    "ast_hash": "da3e8abc8f7bec06d7966c196efb2902",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/blink/python/main.py": {
+    "mtime": 1793615966.6716936,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f1cd4412e3c7be49ab192c2421b3c478",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/button/c/src/main.c": {
+    "mtime": 1793615966.6702056,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1ae6ce367c480acff44ac20af654ee94",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/button/python/main.py": {
+    "mtime": 1793615966.6716936,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ecded2cb2144a2011524c43f7ce0dfc9",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/fade/c/src/main.c": {
+    "mtime": 1793615966.6702056,
+    "seen": 1793616539.3184044,
+    "ast_hash": "eaccb740387baa204e8c5b1a1d5e123b",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/fade/python/main.py": {
+    "mtime": 1793615966.6726983,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ca84afc4c30dee951237c961670c592a",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/plotter/python/main.py": {
+    "mtime": 1793615966.6726983,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1e6d6ecebd1496f00fbd1bf5c2647be2",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/serial/c/src/main.c": {
+    "mtime": 1793615966.6702056,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ca4195267d28db100b0417b91eb7c5a8",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/serial/python/main.py": {
+    "mtime": 1793615966.6716936,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9a1b4548d24c1748a7ae880e7a58f83a",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/servo/c/src/main.c": {
+    "mtime": 1793615966.6702056,
+    "seen": 1793616539.3184044,
+    "ast_hash": "997907b132e74440c93b039cbac0e3bf",
+    "semantic_hash": ""
+  },
+  "examples/pico2-w/servo/python/main.py": {
+    "mtime": 1793615966.6726983,
+    "seen": 1793616539.3184044,
+    "ast_hash": "846a6847122f5934375661e88598cac1",
+    "semantic_hash": ""
+  },
+  "examples/pico2/analog-read/c/src/main.c": {
+    "mtime": 1793615966.6664295,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7f288fe201a80b2cc3f2e0017bc3513f",
+    "semantic_hash": ""
+  },
+  "examples/pico2/analog-read/python/main.py": {
+    "mtime": 1793615966.667428,
+    "seen": 1793616539.3184044,
+    "ast_hash": "4ac13062124663af6c8f5d45e2a7ccb2",
+    "semantic_hash": ""
+  },
+  "examples/pico2/blink/c/src/main.c": {
+    "mtime": 1793615966.6654234,
+    "seen": 1793616539.3184044,
+    "ast_hash": "5601f7fed1708c4164ac3142a1a4cd8e",
+    "semantic_hash": ""
+  },
+  "examples/pico2/blink/python/main.py": {
+    "mtime": 1793615966.6664295,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3d8cd31fb165708ca3589b498fac1400",
+    "semantic_hash": ""
+  },
+  "examples/pico2/button/c/src/main.c": {
+    "mtime": 1793615966.6654234,
+    "seen": 1793616539.3184044,
+    "ast_hash": "95232644d3e6d0ae0169a637ac99952c",
+    "semantic_hash": ""
+  },
+  "examples/pico2/button/python/main.py": {
+    "mtime": 1793615966.667428,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ff2c9f027c6afd70e85b1f3bc36886c0",
+    "semantic_hash": ""
+  },
+  "examples/pico2/fade/c/src/main.c": {
+    "mtime": 1793615966.6654234,
+    "seen": 1793616539.3184044,
+    "ast_hash": "2e13d6e84e8ac63c183776a659da0dd4",
+    "semantic_hash": ""
+  },
+  "examples/pico2/fade/python/main.py": {
+    "mtime": 1793615966.667428,
+    "seen": 1793616539.3184044,
+    "ast_hash": "6e816f542d853a15f320fb040f98ae4c",
+    "semantic_hash": ""
+  },
+  "examples/pico2/plotter/python/main.py": {
+    "mtime": 1793615966.667428,
+    "seen": 1793616539.3184044,
+    "ast_hash": "61ba907b24487caa1ba8801a23912806",
+    "semantic_hash": ""
+  },
+  "examples/pico2/serial/c/src/main.c": {
+    "mtime": 1793615966.6649027,
+    "seen": 1793616539.3184044,
+    "ast_hash": "e0c156090bea1325381b5fe0b85adaa2",
+    "semantic_hash": ""
+  },
+  "examples/pico2/serial/python/main.py": {
+    "mtime": 1793615966.6664295,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3befbbea00560e204a73e8362f322d2c",
+    "semantic_hash": ""
+  },
+  "examples/pico2/servo/c/src/main.c": {
+    "mtime": 1793615966.6654234,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1f383cad410a24c469f49795b7fe8aac",
+    "semantic_hash": ""
+  },
+  "examples/pico2/servo/python/main.py": {
+    "mtime": 1793615966.667428,
+    "seen": 1793616539.3184044,
+    "ast_hash": "bda0b2e82a26a2512da608a9b12bc3c4",
+    "semantic_hash": ""
+  },
+  "examples/pico/analog-read/c/src/main.c": {
+    "mtime": 1793615966.6491783,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7ff1fd6e3edce92c5847ea6d25524410",
+    "semantic_hash": ""
+  },
+  "examples/pico/analog-read/python/main.py": {
+    "mtime": 1793615966.6501932,
+    "seen": 1793616539.3184044,
+    "ast_hash": "37cfecff48c4725f946c467ad3664c19",
+    "semantic_hash": ""
+  },
+  "examples/pico/blink/c/src/main.c": {
+    "mtime": 1793615966.6485794,
+    "seen": 1793616539.3184044,
+    "ast_hash": "b80cdf54bc752972199c3c6e98594a18",
+    "semantic_hash": ""
+  },
+  "examples/pico/blink/python/main.py": {
+    "mtime": 1793615966.6501932,
+    "seen": 1793616539.3184044,
+    "ast_hash": "18d844802c5a2164a423ce88bb595ddd",
+    "semantic_hash": ""
+  },
+  "examples/pico/button/c/src/main.c": {
+    "mtime": 1793615966.6485794,
+    "seen": 1793616539.3184044,
+    "ast_hash": "761dbe932f328573f74766f14a332e54",
+    "semantic_hash": ""
+  },
+  "examples/pico/button/python/main.py": {
+    "mtime": 1793615966.6501932,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9a83158a4d976322d36edd0a4c2cea14",
+    "semantic_hash": ""
+  },
+  "examples/pico/fade/c/src/main.c": {
+    "mtime": 1793615966.6491783,
+    "seen": 1793616539.3184044,
+    "ast_hash": "15d49beb768466ae95518e97188c8573",
+    "semantic_hash": ""
+  },
+  "examples/pico/fade/python/main.py": {
+    "mtime": 1793615966.651198,
+    "seen": 1793616539.3184044,
+    "ast_hash": "456a8da84c8e045e991a31b6c75cdf8b",
+    "semantic_hash": ""
+  },
+  "examples/pico/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6491783,
+    "seen": 1793616539.3184044,
+    "ast_hash": "5fa8153d5fe72ca3bcfed243486c4c1d",
+    "semantic_hash": ""
+  },
+  "examples/pico/plotter/python/main.py": {
+    "mtime": 1793615966.651198,
+    "seen": 1793616539.3184044,
+    "ast_hash": "e2277bda507b36aa541d847881cae2cb",
+    "semantic_hash": ""
+  },
+  "examples/pico/serial/c/src/main.c": {
+    "mtime": 1793615966.6480668,
+    "seen": 1793616539.3184044,
+    "ast_hash": "a0ac52ab01db7158d85fe9be2f4f571d",
+    "semantic_hash": ""
+  },
+  "examples/pico/serial/python/main.py": {
+    "mtime": 1793615966.6501932,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1fcae3a94c149ba076631af39f8c2ea0",
+    "semantic_hash": ""
+  },
+  "examples/pico/servo/c/src/main.c": {
+    "mtime": 1793615966.6491783,
+    "seen": 1793616539.3184044,
+    "ast_hash": "74189d7c271e50fe7a359b4e4a9c3cf6",
+    "semantic_hash": ""
+  },
+  "examples/pico/servo/python/main.py": {
+    "mtime": 1793615966.651198,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7fda80ad675c4dae38ba234dcc97372e",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-16/analog-read/c/src/main.c": {
+    "mtime": 1793615966.593677,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f114fe395723902a40188d9b1d94ea7f",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-16/blink/c/src/main.c": {
+    "mtime": 1793615966.593677,
+    "seen": 1793616539.3184044,
+    "ast_hash": "311cf6be9cd9e53d2169ca1da7abb206",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-16/button/c/src/main.c": {
+    "mtime": 1793615966.593677,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ce882034f0c5da88e0757bdcd75821f7",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-16/fade/c/src/main.c": {
+    "mtime": 1793615966.593677,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3c365cf749c42c8990054e82f99c94b9",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-16/servo/c/src/main.c": {
+    "mtime": 1793615966.5952134,
+    "seen": 1793616539.3184044,
+    "ast_hash": "4d06357b4714223b9cbab1d2ccbcee80",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-8/analog-read/c/src/main.c": {
+    "mtime": 1793615966.5916598,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7b2cdc57f6f54b42e975cf9ede4818fa",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-8/blink/c/src/main.c": {
+    "mtime": 1793615966.5906527,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ff1bb2ae8496b0d8f3d725c78ed9a4e1",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-8/button/c/src/main.c": {
+    "mtime": 1793615966.5906527,
+    "seen": 1793616539.3184044,
+    "ast_hash": "38043c571db873cb2dcb39548134b30b",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-8/fade/c/src/main.c": {
+    "mtime": 1793615966.5906527,
+    "seen": 1793616539.3184044,
+    "ast_hash": "2eb5fc445f14f8d0facd108e812bcf7b",
+    "semantic_hash": ""
+  },
+  "examples/pro-mini-8/servo/c/src/main.c": {
+    "mtime": 1793615966.5916598,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ae743c5697db3e430f1c21f9051b9c6c",
+    "semantic_hash": ""
+  },
+  "examples/uno/analog-read/c/src/main.c": {
+    "mtime": 1793615966.5796454,
+    "seen": 1793616539.3184044,
+    "ast_hash": "aa78852ec5c801fdb0ec89f7a97bc95d",
+    "semantic_hash": ""
+  },
+  "examples/uno/blink/c/src/main.c": {
+    "mtime": 1793615966.5796454,
+    "seen": 1793616539.3184044,
+    "ast_hash": "1ca35f9a8f82bcab331b0a60503fcbdc",
+    "semantic_hash": ""
+  },
+  "examples/uno/button/c/src/main.c": {
+    "mtime": 1793615966.5796454,
+    "seen": 1793616539.3184044,
+    "ast_hash": "a951b03a1c4493bcebe26b66a7cbd37b",
+    "semantic_hash": ""
+  },
+  "examples/uno/fade/c/src/main.c": {
+    "mtime": 1793615966.5796454,
+    "seen": 1793616539.3184044,
+    "ast_hash": "c86e81f66a12f9d4f6ce5d60237ceb16",
+    "semantic_hash": ""
+  },
+  "examples/uno/servo/c/src/main.c": {
+    "mtime": 1793615966.5806458,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3d046cea7573bfc25b42c433f17f6ea7",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/analog-read/c/main/main.c": {
+    "mtime": 1793615966.7319357,
+    "seen": 1793616539.3184044,
+    "ast_hash": "b32ea87d919174b78fcb1e44f7c06ada",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/analog-read/python/main.py": {
+    "mtime": 1793615966.7329354,
+    "seen": 1793616539.3184044,
+    "ast_hash": "64fd188eb3d174c8e04cb6c8430e58cc",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/blink/c/main/main.c": {
+    "mtime": 1793615966.7309432,
+    "seen": 1793616539.3184044,
+    "ast_hash": "780b8c36be87a478816880ef7c7fc2d8",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/blink/python/main.py": {
+    "mtime": 1793615966.7329354,
+    "seen": 1793616539.3184044,
+    "ast_hash": "5b5af1914fc08cb64fc31e96593003b6",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/button/c/main/main.c": {
+    "mtime": 1793615966.7309432,
+    "seen": 1793616539.3184044,
+    "ast_hash": "66cf8763b25b53918c16d816548e5b12",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/button/python/main.py": {
+    "mtime": 1793615966.7329354,
+    "seen": 1793616539.3184044,
+    "ast_hash": "4660970609784c5890d2bf2bf081b41b",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/fade/c/main/main.c": {
+    "mtime": 1793615966.7319357,
+    "seen": 1793616539.3184044,
+    "ast_hash": "77190ddaf1d49da87fbaeb83180bec60",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/fade/python/main.py": {
+    "mtime": 1793615966.733943,
+    "seen": 1793616539.3184044,
+    "ast_hash": "272ebd407a301e7b53764af1962c4dc1",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/plotter/python/main.py": {
+    "mtime": 1793615966.7329354,
+    "seen": 1793616539.3184044,
+    "ast_hash": "90437cbfbf41c3d5fa14b564d3540bf3",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/serial/c/main/main.c": {
+    "mtime": 1793615966.7309432,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9ca620b848e5117a5c565c5157fd9de8",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/serial/python/main.py": {
+    "mtime": 1793615966.7329354,
+    "seen": 1793616539.3184044,
+    "ast_hash": "cb8c6be70d4630957ee7655887ae5c2a",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/servo/c/main/main.c": {
+    "mtime": 1793615966.7319357,
+    "seen": 1793616539.3184044,
+    "ast_hash": "bb59addd1ce3974572421fa1208119ce",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32c3/servo/python/main.py": {
+    "mtime": 1793615966.733943,
+    "seen": 1793616539.3184044,
+    "ast_hash": "b21ebb08ad151798ac9a1b279f11972f",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/analog-read/c/main/main.c": {
+    "mtime": 1793615966.7164445,
+    "seen": 1793616539.3184044,
+    "ast_hash": "51edbaa9d0031dbdf9c3b0457a404589",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/analog-read/python/main.py": {
+    "mtime": 1793615966.7174857,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ed53191286f3fa46c622afe167051a86",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/blink/c/main/main.c": {
+    "mtime": 1793615966.7154455,
+    "seen": 1793616539.3184044,
+    "ast_hash": "644bea9b46f8e90b8419111a9b3c6d90",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/blink/python/main.py": {
+    "mtime": 1793615966.7164445,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7f292a5a4bbdf7a3891e92a1f476362a",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/button/c/main/main.c": {
+    "mtime": 1793615966.7154455,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f6a0973520ce4cd71432c0bc937b64a6",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/button/python/main.py": {
+    "mtime": 1793615966.7174857,
+    "seen": 1793616539.3184044,
+    "ast_hash": "a9b23b21023e95d53f2305d1ac2702f2",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/fade/c/main/main.c": {
+    "mtime": 1793615966.7164445,
+    "seen": 1793616539.3184044,
+    "ast_hash": "99a57c1ec0955b2eae8867067e18fdf9",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/fade/python/main.py": {
+    "mtime": 1793615966.7174857,
+    "seen": 1793616539.3184044,
+    "ast_hash": "cc04418c4340d2c45feeec8296bc430b",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/plotter/python/main.py": {
+    "mtime": 1793615966.7174857,
+    "seen": 1793616539.3184044,
+    "ast_hash": "478707abf68e2b58a0ffef8fb69eff0c",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/serial/c/main/main.c": {
+    "mtime": 1793615966.7154455,
+    "seen": 1793616539.3184044,
+    "ast_hash": "f956cea2c403b96c993b35a5a47433d6",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/serial/python/main.py": {
+    "mtime": 1793615966.7164445,
+    "seen": 1793616539.3184044,
+    "ast_hash": "fcebeacce1af9c37daa918ca87b47381",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/servo/c/main/main.c": {
+    "mtime": 1793615966.7164445,
+    "seen": 1793616539.3184044,
+    "ast_hash": "7ffa3d0b0b1f46fc2ca6acc583b1582d",
+    "semantic_hash": ""
+  },
+  "examples/xiao-esp32s3/servo/python/main.py": {
+    "mtime": 1793615966.7184772,
+    "seen": 1793616539.3184044,
+    "ast_hash": "4319e3b7af3a9ac3906a6f5c0ed971aa",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/analog-read/c/src/main.c": {
+    "mtime": 1793615966.6835332,
+    "seen": 1793616539.3184044,
+    "ast_hash": "cc7592cab86d1d7b51d316b2e8c37e60",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/analog-read/python/main.py": {
+    "mtime": 1793615966.684533,
+    "seen": 1793616539.3184044,
+    "ast_hash": "28c7197a3b9ac74b4fb5599f0aa63e04",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/blink/c/src/main.c": {
+    "mtime": 1793615966.6825328,
+    "seen": 1793616539.3184044,
+    "ast_hash": "05a991647697d828f8d79712f4d2c99c",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/blink/python/main.py": {
+    "mtime": 1793615966.6835332,
+    "seen": 1793616539.3184044,
+    "ast_hash": "fdc7bc051dc468558e57c006945203ff",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/button/c/src/main.c": {
+    "mtime": 1793615966.6825328,
+    "seen": 1793616539.3184044,
+    "ast_hash": "973162451e81fca24acd4074b9bc257d",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/button/python/main.py": {
+    "mtime": 1793615966.684533,
+    "seen": 1793616539.3184044,
+    "ast_hash": "6fffb63a8175472ac38afcc59c3954fa",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/fade/c/src/main.c": {
+    "mtime": 1793615966.6825328,
+    "seen": 1793616539.3184044,
+    "ast_hash": "0fedad4c4cebfde2c4718933a0466e71",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/fade/python/main.py": {
+    "mtime": 1793615966.684533,
+    "seen": 1793616539.3184044,
+    "ast_hash": "3b6b25d6c687450ac5aa99216384ab21",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/hello/rust/src/main.rs": {
+    "mtime": 1793615966.6835332,
+    "seen": 1793616539.3184044,
+    "ast_hash": "9db431a8292f237961fc64292f666db9",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/plotter/python/main.py": {
+    "mtime": 1793615966.684533,
+    "seen": 1793616539.3184044,
+    "ast_hash": "4695ffdf8aad78516442ca08cc04031b",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/serial/c/src/main.c": {
+    "mtime": 1793615966.6825328,
+    "seen": 1793616539.3184044,
+    "ast_hash": "6617a83a4b9b7ec8a0e1fc934d5e3d4f",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/serial/python/main.py": {
+    "mtime": 1793615966.684533,
+    "seen": 1793616539.3184044,
+    "ast_hash": "318fbab7ed1f0d6e133c79d61efe26e6",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/servo/c/src/main.c": {
+    "mtime": 1793615966.6835332,
+    "seen": 1793616539.3184044,
+    "ast_hash": "6a0bc8bdcba7fe5d2f5dd2a6132ee23e",
+    "semantic_hash": ""
+  },
+  "examples/xiao-rp2040/servo/python/main.py": {
+    "mtime": 1793615966.6855347,
+    "seen": 1793616539.3184044,
+    "ast_hash": "a3231be57babc5d88260d383d97da625",
+    "semantic_hash": ""
+  },
+  "renderer/api.js": {
+    "mtime": 1793619911.3134494,
+    "seen": 1793620137.7937145,
+    "ast_hash": "ad05f5bbad6e1659679d3197057e5662",
+    "semantic_hash": ""
+  },
+  "renderer/lint.js": {
+    "mtime": 1793615965.5886478,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ce64a90ee8909e234145c482ea771573",
+    "semantic_hash": ""
+  },
+  "scripts/gen-examples.js": {
+    "mtime": 1793615965.5236967,
+    "seen": 1793616539.3184044,
+    "ast_hash": "59c7fa05058139bd4082ae821552fb78",
+    "semantic_hash": ""
+  },
+  "src/examples.js": {
+    "mtime": 1793615719.956457,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ab44b5a9d0bb53acc5039e9f2f9b5c89",
+    "semantic_hash": ""
+  },
+  "src/market.js": {
+    "mtime": 1793616519.9457223,
+    "seen": 1793616539.3184044,
+    "ast_hash": "ea18ec76f50e0ef8570753c569b318a5",
+    "semantic_hash": ""
+  },
+  "test/market.test.js": {
+    "mtime": 1793616520.0829518,
+    "seen": 1793616539.3184044,
+    "ast_hash": "608e856d45dfabdd751233320af0980e",
+    "semantic_hash": ""
+  },
+  "extensions/phosphor-theme/extension.json": {
+    "mtime": 1793619910.1444843,
+    "seen": 1793620137.7937145,
+    "ast_hash": "5c7eed83ae6652705e49bca8a6eaad06",
+    "semantic_hash": ""
+  },
+  "extensions/sketch-helpers/extension.json": {
+    "mtime": 1793619909.8794951,
+    "seen": 1793620137.7937145,
+    "ast_hash": "ae1fc504c380e3a67f7df7293d481c44",
+    "semantic_hash": ""
+  },
+  "extensions/sketch-helpers/main.js": {
+    "mtime": 1793619910.0109746,
+    "seen": 1793620137.7937145,
+    "ast_hash": "9df36e419b44a86f7af62289a462135c",
+    "semantic_hash": ""
+  },
+  "renderer/extensions.js": {
+    "mtime": 1793620036.02869,
+    "seen": 1793620137.7937145,
+    "ast_hash": "ea7ff8909bf6c57257bd3a8304591c9f",
+    "semantic_hash": ""
+  },
+  "renderer/menu.js": {
+    "mtime": 1793620112.7145605,
+    "seen": 1793620137.7937145,
+    "ast_hash": "ce8ab0c0530f2a48229c76d018b4a4bc",
+    "semantic_hash": ""
+  },
+  "renderer/theme.js": {
+    "mtime": 1793619909.6411424,
+    "seen": 1793620137.7937145,
+    "ast_hash": "084160d5b272dc0f2b562418a70bbd09",
+    "semantic_hash": ""
+  },
+  "src/extensions.js": {
+    "mtime": 1793619909.805006,
+    "seen": 1793620137.7937145,
+    "ast_hash": "b6b90885c5027755cf1b28af2f5622d6",
+    "semantic_hash": ""
+  },
+  "test/ui.test.js": {
+    "mtime": 1793620036.0732906,
+    "seen": 1793620137.7937145,
+    "ast_hash": "67d859f14142dc52c2e479ba32ed668e",
+    "semantic_hash": ""
+  },
+  "extensions/README.md": {
+    "mtime": 1793619910.1902368,
+    "seen": 1793620137.7937145,
+    "ast_hash": "627090fcea3c3017ef791253020045aa",
+    "semantic_hash": ""
+  }
+}
