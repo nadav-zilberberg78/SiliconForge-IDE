@@ -1,17 +1,40 @@
 {
   "name": "siliconforge-ide",
   "version": "0.1.0",
-  "description": "Arduino-simple embedded IDE for C, Rust and MicroPython",
+  "description": "Arduino-simple embedded IDE for C++, C, Rust and MicroPython",
+  "author": "Nadav Zilberberg",
+  "license": "MIT",
+  "repository": "github:nadav-zilberberg78/SiliconForge-IDE",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "node --test test/",
-    "examples": "node scripts/gen-examples.js"
+    "examples": "node scripts/gen-examples.js",
+    "dist": "electron-builder --win nsis"
+  },
+  "build": {
+    "appId": "com.nadavzilberberg.siliconforge",
+    "productName": "SiliconForge IDE",
+    "artifactName": "SiliconForge-IDE-Setup-${version}.${ext}",
+    "files": [
+      "main.js",
+      "preload.js",
+      "LICENSE",
+      "src/**",
+      "renderer/**",
+      "extensions/**",
+      "examples/**"
+    ],
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
   },
   "dependencies": {
     "monaco-editor": "0.52.2"
   },
   "devDependencies": {
-    "electron": "^44.9.0"
+    "electron": "^44.9.0",
+    "electron-builder": "^26.18.0"
   }
 }

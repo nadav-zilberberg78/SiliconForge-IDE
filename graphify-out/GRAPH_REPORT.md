@@ -1,14 +1,19 @@
 # Graph Report - SiliconForge IDE  (2026-11-02)
 
 ## Corpus Check
-- 364 files · ~41,406 words
+- 361 files · ~41,730 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 345 file(s) not represented in the graph (top: .ino 342, (none) 2, .css 1)
 
 ## Summary
-- 958 nodes · 1632 edges · 91 communities (40 shown, 51 thin omitted)
+- 975 nodes · 1649 edges · 96 communities (40 shown, 56 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 42 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `a5e7f89e`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - main.js
@@ -16,11 +21,10 @@
 - package.json
 - renderer.js
 - scaffold.js
-- Writing an extension
+- SiliconForge IDE
 - touch.js
 - CLAUDE.md
 - defmt_rtt_as
-- Tasks.md
 - market.test.js
 - gen-examples.js
 - ledc
@@ -77,9 +81,9 @@
 5. `loadExtensions()` - 8 edges
 6. `toggle()` - 8 edges
 7. `scaffold()` - 7 edges
-8. `MENUS()` - 6 edges
-9. `applySettings()` - 6 edges
-10. `openFile()` - 6 edges
+8. `SiliconForge IDE` - 7 edges
+9. `build` - 6 edges
+10. `MENUS()` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Writing an extension` --references--> `mask()`  [INFERRED]
@@ -94,7 +98,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (91 total, 51 thin omitted)
+## Communities (96 total, 56 thin omitted)
 
 ### Community 0 - "main.js"
 Cohesion: 0.07
@@ -105,8 +109,8 @@ Cohesion: 0.12
 Nodes (9): ErrorParser, path, assert, boards, { ErrorParser }, path, { scaffold, retarget }, test (+1 more)
 
 ### Community 2 - "package.json"
-Cohesion: 0.11
-Nodes (16): dependencies, monaco-editor, description, devDependencies, electron, main, name, scripts (+8 more)
+Cohesion: 0.06
+Nodes (30): author, build, appId, artifactName, files, nsis, productName, dependencies (+22 more)
 
 ### Community 3 - "renderer.js"
 Cohesion: 0.08
@@ -116,9 +120,9 @@ Nodes (25): ACTIONS, DEFAULT_KEYS, DEFAULTS, diags, exampleTree, fillList(), hid
 Cohesion: 0.13
 Nodes (13): avr(), AVR_UPLOAD, BOARD_OPTIONS, boardOptions(), generate(), GENERATORS, { isDeepStrictEqual }, megaAvr() (+5 more)
 
-### Community 6 - "Writing an extension"
-Cohesion: 0.25
-Nodes (6): Script API, The sandbox, Writing an extension, How it works, SiliconForge IDE, Toolchains (must be on PATH for now)
+### Community 6 - "SiliconForge IDE"
+Cohesion: 0.13
+Nodes (13): Script API, The sandbox, Writing an extension, Development, Features, Installation, License, Option 1: Windows installer (recommended) (+5 more)
 
 ### Community 7 - "touch.js"
 Cohesion: 0.22
@@ -133,8 +137,8 @@ Cohesion: 0.11
 Nodes (19): lintRules(), mask(), fs, listExamples(), path, readExample(), ROOT, subdirs() (+11 more)
 
 ### Community 20 - "gen-examples.js"
-Cohesion: 0.07
-Nodes (30): arduinoPins(), AVR, AVR_PINS, boards, examplesFor(), family(), FAMILY_PINS, fs (+22 more)
+Cohesion: 0.11
+Nodes (19): arduinoPins(), AVR, AVR_PINS, boards, examplesFor(), family(), FAMILY_PINS, fs (+11 more)
 
 ### Community 21 - "ledc"
 Cohesion: 0.12
@@ -217,8 +221,8 @@ Cohesion: 0.16
 Nodes (17): ACTION_LABELS, actionItem(), choiceItem(), closeMenu(), EDITOR_KEYS, extensionActions(), menubar, MENUS() (+9 more)
 
 ### Community 80 - "ui.test.js"
-Cohesion: 0.13
-Nodes (11): accentPalette(), contrast(), luminance(), assert, builtinDir, ext, fs, os (+3 more)
+Cohesion: 0.08
+Nodes (22): accentPalette(), contrast(), luminance(), extensionCode(), fs, installExtension(), LANGUAGES, listExtensions() (+14 more)
 
 ### Community 81 - "renderer/extensions.js"
 Cohesion: 0.23
@@ -257,24 +261,24 @@ Cohesion: 0.50
 Nodes (4): isSketch(), quickLint(), registerAssist(), rulesFor()
 
 ## Knowledge Gaps
-- **1 isolated node(s):** `monaco-editor`
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 354 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **51 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **2 isolated node(s):** `monaco-editor`, `electron-builder`
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 368 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **56 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `electron` connect `package.json` to `main.js`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **What connects `monaco-editor` to the rest of the system?**
-  _1 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
+- **What connects `monaco-editor`, `electron-builder` to the rest of the system?**
+  _2 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `main.js` be split into smaller, more focused modules?**
   _Cohesion score 0.0677361853832442 - nodes in this community are weakly interconnected._
-- **Why does `mask()` connect `market.test.js` to `Writing an extension`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+- **Why does `mask()` connect `market.test.js` to `SiliconForge IDE`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **Should `core.test.js` be split into smaller, more focused modules?**
   _Cohesion score 0.12280701754385964 - nodes in this community are weakly interconnected._
-- **Why does `Writing an extension` connect `Writing an extension` to `market.test.js`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+- **Why does `Writing an extension` connect `SiliconForge IDE` to `market.test.js`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Should `package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0625 - nodes in this community are weakly interconnected._

@@ -5,7 +5,7 @@
   "3": "renderer.js",
   "4": "scaffold.js",
   "5": "time",
-  "6": "Writing an extension",
+  "6": "SiliconForge IDE",
   "7": "touch.js",
   "8": "task",
   "9": "freertos",
@@ -13,8 +13,8 @@
   "11": "defmt_rtt_as",
   "12": "stdlib",
   "13": "delay",
-  "14": "Tasks.md",
-  "15": "pwm",
+  "14": "pwm",
+  "15": "clocks",
   "16": "stdint",
   "17": "math",
   "18": "io",
@@ -89,5 +89,10 @@
   "87": "run",
   "88": "css",
   "89": "isSketch",
-  "90": "sketch-helpers/main.js"
+  "90": "sketch-helpers/main.js",
+  "91": "feather-rp2040/serial/c/src/main.c",
+  "92": "pico2/serial/c/src/main.c",
+  "93": "pico/button/c/src/main.c",
+  "94": "pico-w/button/c/src/main.c",
+  "95": "xiao-rp2040/blink/c/src/main.c"
 }

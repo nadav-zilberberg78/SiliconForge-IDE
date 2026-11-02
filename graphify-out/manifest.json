@@ -12,9 +12,9 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1793615812.4642918,
-    "seen": 1793616539.3184044,
-    "ast_hash": "0faad042268c444e4eb811adb32d2ecd",
+    "mtime": 1793621541.3010826,
+    "seen": 1793621674.2474601,
+    "ast_hash": "b40e7db3099721861b0fd7d134d802e9",
     "semantic_hash": ""
   },
   "preload.js": {
@@ -60,9 +60,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1793619911.3180408,
-    "seen": 1793620137.7937145,
-    "ast_hash": "d2d2628861aab71a2c3ea6e17a0150bc",
+    "mtime": 1793621649.7893915,
+    "seen": 1793621674.2474601,
+    "ast_hash": "f865afb633c76150e710a920053fb8dd",
     "semantic_hash": ""
   },
   "renderer/index.html": {
@@ -71,28 +71,10 @@
     "ast_hash": "3ad9553dfd4fa9672a13808cfc2833c7",
     "semantic_hash": ""
   },
-  "blink/siliconforge.json": {
-    "mtime": 1792415418.1498857,
-    "seen": 1793615204.9268503,
-    "ast_hash": "6eb16a111453130342470b5b68099ac3",
-    "semantic_hash": ""
-  },
-  "blink/src/main.c": {
-    "mtime": 1792415418.1479914,
-    "seen": 1793615204.9268503,
-    "ast_hash": "375e81da1425830477262cb8d426534e",
-    "semantic_hash": ""
-  },
   "src/touch.js": {
     "mtime": 1792415277.8243558,
     "seen": 1792415349.301322,
     "ast_hash": "56d043e8baac9eadada88e218f7b409a",
-    "semantic_hash": ""
-  },
-  "Tasks.md": {
-    "mtime": 1793615134.6042466,
-    "seen": 1793615204.9268503,
-    "ast_hash": "f5de671aee635561b5ae410d61d276b5",
     "semantic_hash": ""
   },
   "examples/arduino-zero/hello/c/src/main.c": {
@@ -2187,6 +2169,12 @@
     "mtime": 1793619910.1902368,
     "seen": 1793620137.7937145,
     "ast_hash": "627090fcea3c3017ef791253020045aa",
+    "semantic_hash": ""
+  },
+  ".github/workflows/release.yml": {
+    "mtime": 1793621516.188738,
+    "seen": 1793621674.2474601,
+    "ast_hash": "46a70ef1a8427dae61b913f60c90b9a3",
     "semantic_hash": ""
   }
 }
